@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B2D88618D68B3C0089F6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D88518D68B3C0089F6A4 /* Foundation.framework */; };
+		34B2D88818D68B3C0089F6A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D88718D68B3C0089F6A4 /* CoreGraphics.framework */; };
+		34B2D88A18D68B3C0089F6A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D88918D68B3C0089F6A4 /* UIKit.framework */; };
+		34B2D89018D68B3C0089F6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34B2D88E18D68B3C0089F6A4 /* InfoPlist.strings */; };
+		34B2D89218D68B3C0089F6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D89118D68B3C0089F6A4 /* main.m */; };
+		34B2D89618D68B3C0089F6A4 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D89518D68B3C0089F6A4 /* MCAppDelegate.m */; };
+		34B2D89918D68B3C0089F6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B2D89718D68B3C0089F6A4 /* Main.storyboard */; };
+		34B2D89C18D68B3C0089F6A4 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D89B18D68B3C0089F6A4 /* MCViewController.m */; };
+		34B2D89E18D68B3C0089F6A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B2D89D18D68B3C0089F6A4 /* Images.xcassets */; };
+		34B2D8A518D68B3C0089F6A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D8A418D68B3C0089F6A4 /* XCTest.framework */; };
+		34B2D8A618D68B3C0089F6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D88518D68B3C0089F6A4 /* Foundation.framework */; };
+		34B2D8A718D68B3C0089F6A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B2D88918D68B3C0089F6A4 /* UIKit.framework */; };
+		34B2D8AF18D68B3C0089F6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34B2D8AD18D68B3C0089F6A4 /* InfoPlist.strings */; };
+		34B2D8B118D68B3C0089F6A4 /* MCFireworksButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B2D8B018D68B3C0089F6A4 /* MCFireworksButtonDemoTests.m */; };
+		34C946F618D68F6500F7C23F /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C946F318D68F6500F7C23F /* MCFireworksButton.m */; };
+		34C946F718D68F6500F7C23F /* MCFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C946F518D68F6500F7C23F /* MCFireworksView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B2D8A818D68B3C0089F6A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B2D87A18D68B3C0089F6A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B2D88118D68B3C0089F6A4;
+			remoteInfo = MCFireworksButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34B2D88218D68B3C0089F6A4 /* MCFireworksButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCFireworksButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B2D88518D68B3C0089F6A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34B2D88718D68B3C0089F6A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34B2D88918D68B3C0089F6A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34B2D88D18D68B3C0089F6A4 /* MCFireworksButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCFireworksButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		34B2D88F18D68B3C0089F6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2D89118D68B3C0089F6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34B2D89318D68B3C0089F6A4 /* MCFireworksButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCFireworksButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		34B2D89418D68B3C0089F6A4 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		34B2D89518D68B3C0089F6A4 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		34B2D89818D68B3C0089F6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B2D89A18D68B3C0089F6A4 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		34B2D89B18D68B3C0089F6A4 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		34B2D89D18D68B3C0089F6A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34B2D8A318D68B3C0089F6A4 /* MCFireworksButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCFireworksButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B2D8A418D68B3C0089F6A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34B2D8AC18D68B3C0089F6A4 /* MCFireworksButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCFireworksButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		34B2D8AE18D68B3C0089F6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34B2D8B018D68B3C0089F6A4 /* MCFireworksButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCFireworksButtonDemoTests.m; sourceTree = "<group>"; };
+		34C946F218D68F6500F7C23F /* MCFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCFireworksButton.h; path = ../../MCFireworksButton/MCFireworksButton.h; sourceTree = "<group>"; };
+		34C946F318D68F6500F7C23F /* MCFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCFireworksButton.m; path = ../../MCFireworksButton/MCFireworksButton.m; sourceTree = "<group>"; };
+		34C946F418D68F6500F7C23F /* MCFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCFireworksView.h; path = ../../MCFireworksButton/MCFireworksView.h; sourceTree = "<group>"; };
+		34C946F518D68F6500F7C23F /* MCFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCFireworksView.m; path = ../../MCFireworksButton/MCFireworksView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B2D87F18D68B3C0089F6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B2D88818D68B3C0089F6A4 /* CoreGraphics.framework in Frameworks */,
+				34B2D88A18D68B3C0089F6A4 /* UIKit.framework in Frameworks */,
+				34B2D88618D68B3C0089F6A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B2D8A018D68B3C0089F6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B2D8A518D68B3C0089F6A4 /* XCTest.framework in Frameworks */,
+				34B2D8A718D68B3C0089F6A4 /* UIKit.framework in Frameworks */,
+				34B2D8A618D68B3C0089F6A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B2D87918D68B3C0089F6A4 = {
+			isa = PBXGroup;
+			children = (
+				34B2D88B18D68B3C0089F6A4 /* MCFireworksButtonDemo */,
+				34B2D8AA18D68B3C0089F6A4 /* MCFireworksButtonDemoTests */,
+				34B2D88418D68B3C0089F6A4 /* Frameworks */,
+				34B2D88318D68B3C0089F6A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B2D88318D68B3C0089F6A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D88218D68B3C0089F6A4 /* MCFireworksButtonDemo.app */,
+				34B2D8A318D68B3C0089F6A4 /* MCFireworksButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B2D88418D68B3C0089F6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D88518D68B3C0089F6A4 /* Foundation.framework */,
+				34B2D88718D68B3C0089F6A4 /* CoreGraphics.framework */,
+				34B2D88918D68B3C0089F6A4 /* UIKit.framework */,
+				34B2D8A418D68B3C0089F6A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B2D88B18D68B3C0089F6A4 /* MCFireworksButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D8C218D68B620089F6A4 /* MCFireworksButton */,
+				34B2D8BB18D68B4D0089F6A4 /* App Delegate */,
+				34B2D8BA18D68B450089F6A4 /* View Controllers */,
+				34B2D89D18D68B3C0089F6A4 /* Images.xcassets */,
+				34B2D88C18D68B3C0089F6A4 /* Supporting Files */,
+			);
+			path = MCFireworksButtonDemo;
+			sourceTree = "<group>";
+		};
+		34B2D88C18D68B3C0089F6A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D88D18D68B3C0089F6A4 /* MCFireworksButtonDemo-Info.plist */,
+				34B2D88E18D68B3C0089F6A4 /* InfoPlist.strings */,
+				34B2D89118D68B3C0089F6A4 /* main.m */,
+				34B2D89318D68B3C0089F6A4 /* MCFireworksButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34B2D8AA18D68B3C0089F6A4 /* MCFireworksButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D8B018D68B3C0089F6A4 /* MCFireworksButtonDemoTests.m */,
+				34B2D8AB18D68B3C0089F6A4 /* Supporting Files */,
+			);
+			path = MCFireworksButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		34B2D8AB18D68B3C0089F6A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D8AC18D68B3C0089F6A4 /* MCFireworksButtonDemoTests-Info.plist */,
+				34B2D8AD18D68B3C0089F6A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34B2D8BA18D68B450089F6A4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D89718D68B3C0089F6A4 /* Main.storyboard */,
+				34B2D89A18D68B3C0089F6A4 /* MCViewController.h */,
+				34B2D89B18D68B3C0089F6A4 /* MCViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		34B2D8BB18D68B4D0089F6A4 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				34B2D89418D68B3C0089F6A4 /* MCAppDelegate.h */,
+				34B2D89518D68B3C0089F6A4 /* MCAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		34B2D8C218D68B620089F6A4 /* MCFireworksButton */ = {
+			isa = PBXGroup;
+			children = (
+				34C946F218D68F6500F7C23F /* MCFireworksButton.h */,
+				34C946F318D68F6500F7C23F /* MCFireworksButton.m */,
+				34C946F418D68F6500F7C23F /* MCFireworksView.h */,
+				34C946F518D68F6500F7C23F /* MCFireworksView.m */,
+			);
+			name = MCFireworksButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B2D88118D68B3C0089F6A4 /* MCFireworksButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B2D8B418D68B3C0089F6A4 /* Build configuration list for PBXNativeTarget "MCFireworksButtonDemo" */;
+			buildPhases = (
+				34B2D87E18D68B3C0089F6A4 /* Sources */,
+				34B2D87F18D68B3C0089F6A4 /* Frameworks */,
+				34B2D88018D68B3C0089F6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCFireworksButtonDemo;
+			productName = MCFireworksButtonDemo;
+			productReference = 34B2D88218D68B3C0089F6A4 /* MCFireworksButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B2D8A218D68B3C0089F6A4 /* MCFireworksButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B2D8B718D68B3C0089F6A4 /* Build configuration list for PBXNativeTarget "MCFireworksButtonDemoTests" */;
+			buildPhases = (
+				34B2D89F18D68B3C0089F6A4 /* Sources */,
+				34B2D8A018D68B3C0089F6A4 /* Frameworks */,
+				34B2D8A118D68B3C0089F6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B2D8A918D68B3C0089F6A4 /* PBXTargetDependency */,
+			);
+			name = MCFireworksButtonDemoTests;
+			productName = MCFireworksButtonDemoTests;
+			productReference = 34B2D8A318D68B3C0089F6A4 /* MCFireworksButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B2D87A18D68B3C0089F6A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Cheok";
+				TargetAttributes = {
+					34B2D8A218D68B3C0089F6A4 = {
+						TestTargetID = 34B2D88118D68B3C0089F6A4;
+					};
+				};
+			};
+			buildConfigurationList = 34B2D87D18D68B3C0089F6A4 /* Build configuration list for PBXProject "MCFireworksButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B2D87918D68B3C0089F6A4;
+			productRefGroup = 34B2D88318D68B3C0089F6A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B2D88118D68B3C0089F6A4 /* MCFireworksButtonDemo */,
+				34B2D8A218D68B3C0089F6A4 /* MCFireworksButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B2D88018D68B3C0089F6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B2D89E18D68B3C0089F6A4 /* Images.xcassets in Resources */,
+				34B2D89018D68B3C0089F6A4 /* InfoPlist.strings in Resources */,
+				34B2D89918D68B3C0089F6A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B2D8A118D68B3C0089F6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B2D8AF18D68B3C0089F6A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B2D87E18D68B3C0089F6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C946F718D68F6500F7C23F /* MCFireworksView.m in Sources */,
+				34B2D89618D68B3C0089F6A4 /* MCAppDelegate.m in Sources */,
+				34B2D89C18D68B3C0089F6A4 /* MCViewController.m in Sources */,
+				34C946F618D68F6500F7C23F /* MCFireworksButton.m in Sources */,
+				34B2D89218D68B3C0089F6A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B2D89F18D68B3C0089F6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B2D8B118D68B3C0089F6A4 /* MCFireworksButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B2D8A918D68B3C0089F6A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B2D88118D68B3C0089F6A4 /* MCFireworksButtonDemo */;
+			targetProxy = 34B2D8A818D68B3C0089F6A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B2D88E18D68B3C0089F6A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B2D88F18D68B3C0089F6A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34B2D89718D68B3C0089F6A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B2D89818D68B3C0089F6A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B2D8AD18D68B3C0089F6A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B2D8AE18D68B3C0089F6A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B2D8B218D68B3C0089F6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34B2D8B318D68B3C0089F6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B2D8B518D68B3C0089F6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCFireworksButtonDemo/MCFireworksButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCFireworksButtonDemo/MCFireworksButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34B2D8B618D68B3C0089F6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCFireworksButtonDemo/MCFireworksButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCFireworksButtonDemo/MCFireworksButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34B2D8B818D68B3C0089F6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCFireworksButtonDemo.app/MCFireworksButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCFireworksButtonDemo/MCFireworksButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MCFireworksButtonDemoTests/MCFireworksButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34B2D8B918D68B3C0089F6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCFireworksButtonDemo.app/MCFireworksButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCFireworksButtonDemo/MCFireworksButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MCFireworksButtonDemoTests/MCFireworksButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B2D87D18D68B3C0089F6A4 /* Build configuration list for PBXProject "MCFireworksButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B2D8B218D68B3C0089F6A4 /* Debug */,
+				34B2D8B318D68B3C0089F6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B2D8B418D68B3C0089F6A4 /* Build configuration list for PBXNativeTarget "MCFireworksButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B2D8B518D68B3C0089F6A4 /* Debug */,
+				34B2D8B618D68B3C0089F6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B2D8B718D68B3C0089F6A4 /* Build configuration list for PBXNativeTarget "MCFireworksButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B2D8B818D68B3C0089F6A4 /* Debug */,
+				34B2D8B918D68B3C0089F6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B2D87A18D68B3C0089F6A4 /* Project object */;
+}
