@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14E36b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YPD-wE-XlL">
+                                <rect key="frame" x="198" y="520" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="6Lh-l9-FY9"/>
+                                </constraints>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td3-LC-ZTJ">
+                                <rect key="frame" x="180" y="524" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVO-xK-iN6">
+                                <rect key="frame" x="410" y="524" width="10" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current:  0.5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASi-e1-V7M">
+                                <rect key="frame" x="252" y="489" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="YPD-wE-XlL" secondAttribute="centerX" id="2y8-MP-o3x"/>
+                            <constraint firstItem="ASi-e1-V7M" firstAttribute="centerX" secondItem="YPD-wE-XlL" secondAttribute="centerX" id="8N5-qV-VUl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YPD-wE-XlL" secondAttribute="bottom" constant="50" id="FjS-Xv-0MN"/>
+                            <constraint firstItem="YPD-wE-XlL" firstAttribute="leading" secondItem="Td3-LC-ZTJ" secondAttribute="trailing" constant="10" id="HgB-5X-Y90"/>
+                            <constraint firstItem="zVO-xK-iN6" firstAttribute="leading" secondItem="YPD-wE-XlL" secondAttribute="trailing" constant="10" id="Onw-ug-g8T"/>
+                            <constraint firstItem="YPD-wE-XlL" firstAttribute="top" secondItem="ASi-e1-V7M" secondAttribute="bottom" constant="10" id="Pjx-AR-If7"/>
+                            <constraint firstItem="YPD-wE-XlL" firstAttribute="centerY" secondItem="Td3-LC-ZTJ" secondAttribute="centerY" id="aJw-Op-KCW"/>
+                            <constraint firstItem="YPD-wE-XlL" firstAttribute="centerY" secondItem="zVO-xK-iN6" secondAttribute="centerY" id="e0m-kV-tOl"/>
+                            <constraint firstAttribute="centerY" secondItem="YPD-wE-XlL" secondAttribute="centerY" id="fTa-8t-tO0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fTa-8t-tO0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="currentValueLabel" destination="ASi-e1-V7M" id="hq4-ch-TrX"/>
+                        <outlet property="mySlider" destination="YPD-wE-XlL" id="F2s-cF-1ro"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

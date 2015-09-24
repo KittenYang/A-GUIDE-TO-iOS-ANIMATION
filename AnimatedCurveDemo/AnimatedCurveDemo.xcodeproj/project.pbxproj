@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5C13E71B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C13E61B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m */; };
+		5FB874431B4A6CCC008A3940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB874421B4A6CCC008A3940 /* main.m */; };
+		5FB874461B4A6CCC008A3940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB874451B4A6CCC008A3940 /* AppDelegate.m */; };
+		5FB874491B4A6CCD008A3940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB874481B4A6CCD008A3940 /* ViewController.m */; };
+		5FB8744C1B4A6CCD008A3940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8744A1B4A6CCD008A3940 /* Main.storyboard */; };
+		5FB8744E1B4A6CCD008A3940 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8744D1B4A6CCD008A3940 /* Images.xcassets */; };
+		5FB874511B4A6CCD008A3940 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8744F1B4A6CCD008A3940 /* LaunchScreen.xib */; };
+		5FB8745D1B4A6CCE008A3940 /* AnimatedCurveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8745C1B4A6CCE008A3940 /* AnimatedCurveDemoTests.m */; };
+		5FB874681B4A6D15008A3940 /* CurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB874671B4A6D15008A3940 /* CurveLayer.m */; };
+		5FB8746B1B4A7415008A3940 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8746A1B4A7415008A3940 /* CurveView.m */; };
+		F4E8F4E51B4CE46B00027A22 /* LabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F4E41B4CE46B00027A22 /* LabelView.m */; };
+		F4E8F4E91B4CEDA900027A22 /* UIView+Convenient.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F4E81B4CEDA900027A22 /* UIView+Convenient.m */; };
+		F4E8F4ED1B4D082500027A22 /* KYPullToCurveVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F4EC1B4D082500027A22 /* KYPullToCurveVeiw.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FB874571B4A6CCE008A3940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FB874351B4A6CCC008A3940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB8743C1B4A6CCC008A3940;
+			remoteInfo = AnimatedCurveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5C13E51B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYPullToCurveVeiw_footer.h; path = KYPullToCurveVeiw/KYPullToCurveVeiw_footer.h; sourceTree = "<group>"; };
+		5F5C13E61B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYPullToCurveVeiw_footer.m; path = KYPullToCurveVeiw/KYPullToCurveVeiw_footer.m; sourceTree = "<group>"; };
+		5FB8743D1B4A6CCC008A3940 /* AnimatedCurveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCurveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB874411B4A6CCC008A3940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB874421B4A6CCC008A3940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FB874441B4A6CCC008A3940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FB874451B4A6CCC008A3940 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FB874471B4A6CCC008A3940 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FB874481B4A6CCD008A3940 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FB8744B1B4A6CCD008A3940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FB8744D1B4A6CCD008A3940 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FB874501B4A6CCD008A3940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5FB874561B4A6CCE008A3940 /* AnimatedCurveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCurveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB8745B1B4A6CCE008A3940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB8745C1B4A6CCE008A3940 /* AnimatedCurveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCurveDemoTests.m; sourceTree = "<group>"; };
+		5FB874661B4A6D15008A3940 /* CurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurveLayer.h; path = CurveLayer/CurveLayer.h; sourceTree = "<group>"; };
+		5FB874671B4A6D15008A3940 /* CurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurveLayer.m; path = CurveLayer/CurveLayer.m; sourceTree = "<group>"; };
+		5FB874691B4A7415008A3940 /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurveView.h; path = CurveView/CurveView.h; sourceTree = "<group>"; };
+		5FB8746A1B4A7415008A3940 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurveView.m; path = CurveView/CurveView.m; sourceTree = "<group>"; };
+		F4E8F4E31B4CE46B00027A22 /* LabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelView.h; path = LabelView/LabelView.h; sourceTree = "<group>"; };
+		F4E8F4E41B4CE46B00027A22 /* LabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelView.m; path = LabelView/LabelView.m; sourceTree = "<group>"; };
+		F4E8F4E71B4CEDA900027A22 /* UIView+Convenient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Convenient.h"; path = "Helpers/UIView+Convenient.h"; sourceTree = "<group>"; };
+		F4E8F4E81B4CEDA900027A22 /* UIView+Convenient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Convenient.m"; path = "Helpers/UIView+Convenient.m"; sourceTree = "<group>"; };
+		F4E8F4EB1B4D082500027A22 /* KYPullToCurveVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYPullToCurveVeiw.h; path = KYPullToCurveVeiw/KYPullToCurveVeiw.h; sourceTree = "<group>"; };
+		F4E8F4EC1B4D082500027A22 /* KYPullToCurveVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYPullToCurveVeiw.m; path = KYPullToCurveVeiw/KYPullToCurveVeiw.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB8743A1B4A6CCC008A3940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB874531B4A6CCE008A3940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB874341B4A6CCC008A3940 = {
+			isa = PBXGroup;
+			children = (
+				5FB8743F1B4A6CCC008A3940 /* AnimatedCurveDemo */,
+				5FB874591B4A6CCE008A3940 /* AnimatedCurveDemoTests */,
+				5FB8743E1B4A6CCC008A3940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FB8743E1B4A6CCC008A3940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8743D1B4A6CCC008A3940 /* AnimatedCurveDemo.app */,
+				5FB874561B4A6CCE008A3940 /* AnimatedCurveDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FB8743F1B4A6CCC008A3940 /* AnimatedCurveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5FB874441B4A6CCC008A3940 /* AppDelegate.h */,
+				5FB874451B4A6CCC008A3940 /* AppDelegate.m */,
+				5FB874471B4A6CCC008A3940 /* ViewController.h */,
+				5FB874481B4A6CCD008A3940 /* ViewController.m */,
+				F4E8F4EE1B4D082A00027A22 /* KYPullToCurveVeiw */,
+				5FB8744A1B4A6CCD008A3940 /* Main.storyboard */,
+				5FB8744D1B4A6CCD008A3940 /* Images.xcassets */,
+				5FB8744F1B4A6CCD008A3940 /* LaunchScreen.xib */,
+				5FB874401B4A6CCC008A3940 /* Supporting Files */,
+			);
+			path = AnimatedCurveDemo;
+			sourceTree = "<group>";
+		};
+		5FB874401B4A6CCC008A3940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB874411B4A6CCC008A3940 /* Info.plist */,
+				5FB874421B4A6CCC008A3940 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB874591B4A6CCE008A3940 /* AnimatedCurveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8745C1B4A6CCE008A3940 /* AnimatedCurveDemoTests.m */,
+				5FB8745A1B4A6CCE008A3940 /* Supporting Files */,
+			);
+			path = AnimatedCurveDemoTests;
+			sourceTree = "<group>";
+		};
+		5FB8745A1B4A6CCE008A3940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8745B1B4A6CCE008A3940 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FB874751B4CC70B008A3940 /* CurveView */ = {
+			isa = PBXGroup;
+			children = (
+				5FB874691B4A7415008A3940 /* CurveView.h */,
+				5FB8746A1B4A7415008A3940 /* CurveView.m */,
+				5FB874661B4A6D15008A3940 /* CurveLayer.h */,
+				5FB874671B4A6D15008A3940 /* CurveLayer.m */,
+			);
+			name = CurveView;
+			sourceTree = "<group>";
+		};
+		F4E8F4E61B4CE47200027A22 /* LabelView */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8F4E31B4CE46B00027A22 /* LabelView.h */,
+				F4E8F4E41B4CE46B00027A22 /* LabelView.m */,
+			);
+			name = LabelView;
+			sourceTree = "<group>";
+		};
+		F4E8F4EA1B4D073A00027A22 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8F4E71B4CEDA900027A22 /* UIView+Convenient.h */,
+				F4E8F4E81B4CEDA900027A22 /* UIView+Convenient.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F4E8F4EE1B4D082A00027A22 /* KYPullToCurveVeiw */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C13E51B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.h */,
+				5F5C13E61B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m */,
+				F4E8F4EB1B4D082500027A22 /* KYPullToCurveVeiw.h */,
+				F4E8F4EC1B4D082500027A22 /* KYPullToCurveVeiw.m */,
+				F4E8F4EA1B4D073A00027A22 /* Helper */,
+				F4E8F4E61B4CE47200027A22 /* LabelView */,
+				5FB874751B4CC70B008A3940 /* CurveView */,
+			);
+			name = KYPullToCurveVeiw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FB8743C1B4A6CCC008A3940 /* AnimatedCurveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB874601B4A6CCE008A3940 /* Build configuration list for PBXNativeTarget "AnimatedCurveDemo" */;
+			buildPhases = (
+				5FB874391B4A6CCC008A3940 /* Sources */,
+				5FB8743A1B4A6CCC008A3940 /* Frameworks */,
+				5FB8743B1B4A6CCC008A3940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCurveDemo;
+			productName = AnimatedCurveDemo;
+			productReference = 5FB8743D1B4A6CCC008A3940 /* AnimatedCurveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FB874551B4A6CCE008A3940 /* AnimatedCurveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB874631B4A6CCE008A3940 /* Build configuration list for PBXNativeTarget "AnimatedCurveDemoTests" */;
+			buildPhases = (
+				5FB874521B4A6CCE008A3940 /* Sources */,
+				5FB874531B4A6CCE008A3940 /* Frameworks */,
+				5FB874541B4A6CCE008A3940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB874581B4A6CCE008A3940 /* PBXTargetDependency */,
+			);
+			name = AnimatedCurveDemoTests;
+			productName = AnimatedCurveDemoTests;
+			productReference = 5FB874561B4A6CCE008A3940 /* AnimatedCurveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FB874351B4A6CCC008A3940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5FB8743C1B4A6CCC008A3940 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					5FB874551B4A6CCE008A3940 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 5FB8743C1B4A6CCC008A3940;
+					};
+				};
+			};
+			buildConfigurationList = 5FB874381B4A6CCC008A3940 /* Build configuration list for PBXProject "AnimatedCurveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FB874341B4A6CCC008A3940;
+			productRefGroup = 5FB8743E1B4A6CCC008A3940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FB8743C1B4A6CCC008A3940 /* AnimatedCurveDemo */,
+				5FB874551B4A6CCE008A3940 /* AnimatedCurveDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FB8743B1B4A6CCC008A3940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB8744C1B4A6CCD008A3940 /* Main.storyboard in Resources */,
+				5FB874511B4A6CCD008A3940 /* LaunchScreen.xib in Resources */,
+				5FB8744E1B4A6CCD008A3940 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB874541B4A6CCE008A3940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB874391B4A6CCC008A3940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB874491B4A6CCD008A3940 /* ViewController.m in Sources */,
+				F4E8F4E91B4CEDA900027A22 /* UIView+Convenient.m in Sources */,
+				F4E8F4ED1B4D082500027A22 /* KYPullToCurveVeiw.m in Sources */,
+				5FB874681B4A6D15008A3940 /* CurveLayer.m in Sources */,
+				5F5C13E71B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m in Sources */,
+				5FB8746B1B4A7415008A3940 /* CurveView.m in Sources */,
+				5FB874461B4A6CCC008A3940 /* AppDelegate.m in Sources */,
+				5FB874431B4A6CCC008A3940 /* main.m in Sources */,
+				F4E8F4E51B4CE46B00027A22 /* LabelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB874521B4A6CCE008A3940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB8745D1B4A6CCE008A3940 /* AnimatedCurveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB874581B4A6CCE008A3940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FB8743C1B4A6CCC008A3940 /* AnimatedCurveDemo */;
+			targetProxy = 5FB874571B4A6CCE008A3940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FB8744A1B4A6CCD008A3940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB8744B1B4A6CCD008A3940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FB8744F1B4A6CCD008A3940 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FB874501B4A6CCD008A3940 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FB8745E1B4A6CCE008A3940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FB8745F1B4A6CCE008A3940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB874611B4A6CCE008A3940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xinyu Li (XWYND9KE57)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AnimatedCurveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5FB874621B4A6CCE008A3940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xinyu Li (XWYND9KE57)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = AnimatedCurveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5FB874641B4A6CCE008A3940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimatedCurveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCurveDemo.app/AnimatedCurveDemo";
+			};
+			name = Debug;
+		};
+		5FB874651B4A6CCE008A3940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimatedCurveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCurveDemo.app/AnimatedCurveDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FB874381B4A6CCC008A3940 /* Build configuration list for PBXProject "AnimatedCurveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB8745E1B4A6CCE008A3940 /* Debug */,
+				5FB8745F1B4A6CCE008A3940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB874601B4A6CCE008A3940 /* Build configuration list for PBXNativeTarget "AnimatedCurveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB874611B4A6CCE008A3940 /* Debug */,
+				5FB874621B4A6CCE008A3940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB874631B4A6CCE008A3940 /* Build configuration list for PBXNativeTarget "AnimatedCurveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB874641B4A6CCE008A3940 /* Debug */,
+				5FB874651B4A6CCE008A3940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FB874351B4A6CCC008A3940 /* Project object */;
+}
