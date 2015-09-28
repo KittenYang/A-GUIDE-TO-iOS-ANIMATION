@@ -24,11 +24,11 @@
 
 	CAEmitterCell *explosionCell = [CAEmitterCell emitterCell];
 	explosionCell.name = @"explosion";
-	explosionCell.alphaRange = 0.50;
+	explosionCell.alphaRange = 0.20;
 	explosionCell.alphaSpeed = -1.0;
 
-	explosionCell.lifetime = 0.3;
-	explosionCell.lifetimeRange = 0.1;
+	explosionCell.lifetime = 0.7;
+	explosionCell.lifetimeRange = 0.3;
 	explosionCell.birthRate = 0;
 	explosionCell.velocity = 40.00;
 	explosionCell.velocityRange = 10.00;
@@ -39,7 +39,8 @@
 	_explosionLayer = [CAEmitterLayer layer];
 	_explosionLayer.name = @"emitterLayer";
 	_explosionLayer.emitterShape = kCAEmitterLayerCircle;
-//	_explosionLayer.emitterMode = kCAEmitterLayerOutline;
+	_explosionLayer.emitterMode = kCAEmitterLayerOutline;
+    _explosionLayer.emitterPosition = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));    
 	_explosionLayer.emitterSize = CGSizeMake(25, 0);
 	_explosionLayer.emitterCells = @[explosionCell];
 	_explosionLayer.renderMode = kCAEmitterLayerOldestFirst;
@@ -86,7 +87,7 @@
 
 - (void)explode {
     self.explosionLayer.beginTime = CACurrentMediaTime();
-    [self.explosionLayer setValue:@800 forKeyPath:@"emitterCells.explosion.birthRate"];
+    [self.explosionLayer setValue:@500 forKeyPath:@"emitterCells.explosion.birthRate"];
     dispatch_time_t delay = dispatch_time(DISPATCH_TIME_NOW, 0.1 * NSEC_PER_SEC);
     dispatch_after(delay, dispatch_get_main_queue(), ^{
         [self stop];
@@ -106,19 +107,6 @@
     	cell.contents = (id)[particleImage CGImage];
     }
 }
-//
-//- (void)setParticleScale:(CGFloat)particleScale {
-//    _particleScale = particleScale;
-//    for (CAEmitterCell *cell in self.emitterCells) {
-//    	cell.scale = particleScale;
-//    }
-//}
-//
-//- (void)setParticleScaleRange:(CGFloat)particleScaleRange {
-//    _particleScaleRange = particleScaleRange;
-//    for (CAEmitterCell *cell in self.emitterCells) {
-//    	cell.scaleRange = particleScaleRange;
-//    }
-//}
+
 
 @end
