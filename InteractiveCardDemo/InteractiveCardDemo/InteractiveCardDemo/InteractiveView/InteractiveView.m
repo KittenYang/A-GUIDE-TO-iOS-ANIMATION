@@ -60,7 +60,6 @@
 
         
     }else if(pan.state == UIGestureRecognizerStateChanged){
-        UIDynamicBehavior
         
         self.center = CGPointMake(initialPoint.x,initialPoint.y + transition.y);
 
