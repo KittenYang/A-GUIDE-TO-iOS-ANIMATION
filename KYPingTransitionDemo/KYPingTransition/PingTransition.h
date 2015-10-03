@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <pop/POP.h>
+//#import <pop/POP.h>
 
 @interface PingTransition : NSObject<UIViewControllerAnimatedTransitioning>
 
