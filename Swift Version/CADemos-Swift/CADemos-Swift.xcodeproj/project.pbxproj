@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6650351C33D20D003BAC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6650341C33D20D003BAC90 /* AppDelegate.swift */; };
+		5F6650371C33D20D003BAC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6650361C33D20D003BAC90 /* ViewController.swift */; };
+		5F66503A1C33D20D003BAC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6650381C33D20D003BAC90 /* Main.storyboard */; };
+		5F66503C1C33D20D003BAC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F66503B1C33D20D003BAC90 /* Assets.xcassets */; };
+		5F66503F1C33D20D003BAC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F66503D1C33D20D003BAC90 /* LaunchScreen.storyboard */; };
+		5F66504A1C33D20D003BAC90 /* CADemos_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6650491C33D20D003BAC90 /* CADemos_SwiftTests.swift */; };
+		5F6650551C33D20E003BAC90 /* CADemos_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6650541C33D20E003BAC90 /* CADemos_SwiftUITests.swift */; };
+		5F6650631C33D279003BAC90 /* DownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6650621C33D279003BAC90 /* DownloadButton.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6650461C33D20D003BAC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6650291C33D20D003BAC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6650301C33D20D003BAC90;
+			remoteInfo = "CADemos-Swift";
+		};
+		5F6650511C33D20D003BAC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6650291C33D20D003BAC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6650301C33D20D003BAC90;
+			remoteInfo = "CADemos-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6650311C33D20D003BAC90 /* CADemos-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CADemos-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6650341C33D20D003BAC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F6650361C33D20D003BAC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F6650391C33D20D003BAC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F66503B1C33D20D003BAC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F66503E1C33D20D003BAC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6650401C33D20D003BAC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6650451C33D20D003BAC90 /* CADemos-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CADemos-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6650491C33D20D003BAC90 /* CADemos_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADemos_SwiftTests.swift; sourceTree = "<group>"; };
+		5F66504B1C33D20D003BAC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6650501C33D20D003BAC90 /* CADemos-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CADemos-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6650541C33D20E003BAC90 /* CADemos_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADemos_SwiftUITests.swift; sourceTree = "<group>"; };
+		5F6650561C33D20E003BAC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6650621C33D279003BAC90 /* DownloadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadButton.swift; path = Classes/DownloadButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F66502E1C33D20D003BAC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6650421C33D20D003BAC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66504D1C33D20D003BAC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6650281C33D20D003BAC90 = {
+			isa = PBXGroup;
+			children = (
+				5F6650331C33D20D003BAC90 /* CADemos-Swift */,
+				5F6650481C33D20D003BAC90 /* CADemos-SwiftTests */,
+				5F6650531C33D20D003BAC90 /* CADemos-SwiftUITests */,
+				5F6650321C33D20D003BAC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6650321C33D20D003BAC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6650311C33D20D003BAC90 /* CADemos-Swift.app */,
+				5F6650451C33D20D003BAC90 /* CADemos-SwiftTests.xctest */,
+				5F6650501C33D20D003BAC90 /* CADemos-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6650331C33D20D003BAC90 /* CADemos-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5F6650641C33D27D003BAC90 /* DownloadButton */,
+				5F6650341C33D20D003BAC90 /* AppDelegate.swift */,
+				5F6650361C33D20D003BAC90 /* ViewController.swift */,
+				5F6650381C33D20D003BAC90 /* Main.storyboard */,
+				5F66503B1C33D20D003BAC90 /* Assets.xcassets */,
+				5F66503D1C33D20D003BAC90 /* LaunchScreen.storyboard */,
+				5F6650401C33D20D003BAC90 /* Info.plist */,
+			);
+			path = "CADemos-Swift";
+			sourceTree = "<group>";
+		};
+		5F6650481C33D20D003BAC90 /* CADemos-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6650491C33D20D003BAC90 /* CADemos_SwiftTests.swift */,
+				5F66504B1C33D20D003BAC90 /* Info.plist */,
+			);
+			path = "CADemos-SwiftTests";
+			sourceTree = "<group>";
+		};
+		5F6650531C33D20D003BAC90 /* CADemos-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6650541C33D20E003BAC90 /* CADemos_SwiftUITests.swift */,
+				5F6650561C33D20E003BAC90 /* Info.plist */,
+			);
+			path = "CADemos-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		5F6650641C33D27D003BAC90 /* DownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				5F6650621C33D279003BAC90 /* DownloadButton.swift */,
+			);
+			name = DownloadButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6650301C33D20D003BAC90 /* CADemos-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6650591C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-Swift" */;
+			buildPhases = (
+				5F66502D1C33D20D003BAC90 /* Sources */,
+				5F66502E1C33D20D003BAC90 /* Frameworks */,
+				5F66502F1C33D20D003BAC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CADemos-Swift";
+			productName = "CADemos-Swift";
+			productReference = 5F6650311C33D20D003BAC90 /* CADemos-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6650441C33D20D003BAC90 /* CADemos-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F66505C1C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-SwiftTests" */;
+			buildPhases = (
+				5F6650411C33D20D003BAC90 /* Sources */,
+				5F6650421C33D20D003BAC90 /* Frameworks */,
+				5F6650431C33D20D003BAC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6650471C33D20D003BAC90 /* PBXTargetDependency */,
+			);
+			name = "CADemos-SwiftTests";
+			productName = "CADemos-SwiftTests";
+			productReference = 5F6650451C33D20D003BAC90 /* CADemos-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F66504F1C33D20D003BAC90 /* CADemos-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F66505F1C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-SwiftUITests" */;
+			buildPhases = (
+				5F66504C1C33D20D003BAC90 /* Sources */,
+				5F66504D1C33D20D003BAC90 /* Frameworks */,
+				5F66504E1C33D20D003BAC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6650521C33D20D003BAC90 /* PBXTargetDependency */,
+			);
+			name = "CADemos-SwiftUITests";
+			productName = "CADemos-SwiftUITests";
+			productReference = 5F6650501C33D20D003BAC90 /* CADemos-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6650291C33D20D003BAC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5F6650301C33D20D003BAC90 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					5F6650441C33D20D003BAC90 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5F6650301C33D20D003BAC90;
+					};
+					5F66504F1C33D20D003BAC90 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5F6650301C33D20D003BAC90;
+					};
+				};
+			};
+			buildConfigurationList = 5F66502C1C33D20D003BAC90 /* Build configuration list for PBXProject "CADemos-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6650281C33D20D003BAC90;
+			productRefGroup = 5F6650321C33D20D003BAC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6650301C33D20D003BAC90 /* CADemos-Swift */,
+				5F6650441C33D20D003BAC90 /* CADemos-SwiftTests */,
+				5F66504F1C33D20D003BAC90 /* CADemos-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F66502F1C33D20D003BAC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66503F1C33D20D003BAC90 /* LaunchScreen.storyboard in Resources */,
+				5F66503C1C33D20D003BAC90 /* Assets.xcassets in Resources */,
+				5F66503A1C33D20D003BAC90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6650431C33D20D003BAC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66504E1C33D20D003BAC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F66502D1C33D20D003BAC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6650371C33D20D003BAC90 /* ViewController.swift in Sources */,
+				5F6650631C33D279003BAC90 /* DownloadButton.swift in Sources */,
+				5F6650351C33D20D003BAC90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6650411C33D20D003BAC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66504A1C33D20D003BAC90 /* CADemos_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66504C1C33D20D003BAC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6650551C33D20E003BAC90 /* CADemos_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6650471C33D20D003BAC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6650301C33D20D003BAC90 /* CADemos-Swift */;
+			targetProxy = 5F6650461C33D20D003BAC90 /* PBXContainerItemProxy */;
+		};
+		5F6650521C33D20D003BAC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6650301C33D20D003BAC90 /* CADemos-Swift */;
+			targetProxy = 5F6650511C33D20D003BAC90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6650381C33D20D003BAC90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6650391C33D20D003BAC90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F66503D1C33D20D003BAC90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F66503E1C33D20D003BAC90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6650571C33D20E003BAC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6650581C33D20E003BAC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F66505A1C33D20E003BAC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CADemos-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F66505B1C33D20E003BAC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CADemos-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F66505D1C33D20E003BAC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CADemos-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADemos-Swift.app/CADemos-Swift";
+			};
+			name = Debug;
+		};
+		5F66505E1C33D20E003BAC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CADemos-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADemos-Swift.app/CADemos-Swift";
+			};
+			name = Release;
+		};
+		5F6650601C33D20E003BAC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CADemos-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CADemos-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F6650611C33D20E003BAC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CADemos-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CADemos-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CADemos-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F66502C1C33D20D003BAC90 /* Build configuration list for PBXProject "CADemos-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6650571C33D20E003BAC90 /* Debug */,
+				5F6650581C33D20E003BAC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6650591C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66505A1C33D20E003BAC90 /* Debug */,
+				5F66505B1C33D20E003BAC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F66505C1C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66505D1C33D20E003BAC90 /* Debug */,
+				5F66505E1C33D20E003BAC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F66505F1C33D20E003BAC90 /* Build configuration list for PBXNativeTarget "CADemos-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6650601C33D20E003BAC90 /* Debug */,
+				5F6650611C33D20E003BAC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6650291C33D20D003BAC90 /* Project object */;
+}
