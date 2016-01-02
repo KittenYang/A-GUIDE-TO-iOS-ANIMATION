@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F3130B81C377F24006EF060 /* DynamicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3130B71C377F24006EF060 /* DynamicView.m */; settings = {ASSET_TAGS = (); }; };
 		5F721B901BB70831006EBBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F721B8F1BB70831006EBBCB /* main.m */; };
 		5F721B931BB70831006EBBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F721B921BB70831006EBBCB /* AppDelegate.m */; };
 		5F721B961BB70831006EBBCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F721B951BB70831006EBBCB /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F3130B61C377F24006EF060 /* DynamicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicView.h; sourceTree = "<group>"; };
+		5F3130B71C377F24006EF060 /* DynamicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicView.m; sourceTree = "<group>"; };
 		5F721B8A1BB70831006EBBCB /* DynamicActionBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicActionBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F721B8E1BB70831006EBBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F721B8F1BB70831006EBBCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3130B91C377F2C006EF060 /* DynamicView */ = {
+			isa = PBXGroup;
+			children = (
+				5F3130B61C377F24006EF060 /* DynamicView.h */,
+				5F3130B71C377F24006EF060 /* DynamicView.m */,
+			);
+			name = DynamicView;
+			sourceTree = "<group>";
+		};
 		5F721B811BB70831006EBBCB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		5F721B8C1BB70831006EBBCB /* DynamicActionBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F3130B91C377F2C006EF060 /* DynamicView */,
 				5F721B911BB70831006EBBCB /* AppDelegate.h */,
 				5F721B921BB70831006EBBCB /* AppDelegate.m */,
 				5F721B941BB70831006EBBCB /* ViewController.h */,
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3130B81C377F24006EF060 /* DynamicView.m in Sources */,
 				5F721B961BB70831006EBBCB /* ViewController.m in Sources */,
 				5F721B931BB70831006EBBCB /* AppDelegate.m in Sources */,
 				5F721B901BB70831006EBBCB /* main.m in Sources */,
@@ -418,6 +432,7 @@
 				5F721BAF1BB70831006EBBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F721BB01BB70831006EBBCB /* Build configuration list for PBXNativeTarget "DynamicActionBlockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				5F721BB21BB70831006EBBCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
