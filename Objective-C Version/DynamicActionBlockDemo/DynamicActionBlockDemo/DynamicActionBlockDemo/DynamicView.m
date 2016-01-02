@@ -15,7 +15,7 @@
 @property (strong,nonatomic) UIGravityBehavior *viewsGravity;
 @property (strong,nonatomic) CAShapeLayer *shapeLayer;
 @property (strong,nonatomic) UIView *panView;
-@property (strong,nonatomic) UIImageView *ballImageView;;
+@property (strong,nonatomic) UIImageView *ballImageView;
 @property (strong,nonatomic) UIView *middleView;
 @property (strong,nonatomic) UIView *topView;
 @property (strong,nonatomic) UIView *bottomView;
@@ -71,7 +71,7 @@
     _topView = [[UIView alloc] initWithFrame:CGRectMake(_ballImageView.center.x-15, 200, 30, 30)];
     [_topView setBackgroundColor:[UIColor grayColor]];
     [self addSubview:_topView];
-    [_topView setCenter:CGPointMake(_topView.center.x, (_middleView.center.y-_panView.center.y)+_panView.center.y/2)];
+    [_topView setCenter:CGPointMake(_topView.center.x, (_middleView.center.y-_panView.center.y) + _panView.center.y/2)];
     
     //3
     _bottomView = [[UIView alloc] initWithFrame:CGRectMake(_ballImageView.center.x-15, 200, 30, 30)];
@@ -83,8 +83,8 @@
 
 -(void)setUpBehaviors{
     
-    _animator=[[UIDynamicAnimator alloc] initWithReferenceView:self];
-    _panGravity=[[UIGravityBehavior alloc] initWithItems:@[_panView]];
+    _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self];
+    _panGravity = [[UIGravityBehavior alloc] initWithItems:@[_panView]];
     [_animator addBehavior:_panGravity];
     
     _viewsGravity=[[UIGravityBehavior alloc] initWithItems:@[_ballImageView,_topView,_bottomView]];
@@ -131,13 +131,12 @@
     UIAttachmentBehavior *attach2=[[UIAttachmentBehavior alloc] initWithItem:_topView attachedToItem:_bottomView];
     [_animator addBehavior:attach2];
     
-    
     UIAttachmentBehavior *attach3=[[UIAttachmentBehavior alloc] initWithItem:_bottomView offsetFromCenter:UIOffsetMake(0, 0) attachedToItem:_ballImageView offsetFromCenter:UIOffsetMake(0, -_ballImageView.bounds.size.height/2)];
     [_animator addBehavior:attach3];
     
     //UIDynamicItemBehavior
     UIDynamicItemBehavior *PanItem=[[UIDynamicItemBehavior alloc] initWithItems:@[_panView,_topView,_bottomView,_ballImageView]];
-    PanItem.elasticity=0.5;
+    PanItem.elasticity = 0.5;
     [_animator addBehavior:PanItem];
     
 }

@@ -14,6 +14,7 @@
 		5F3130931C377DAD006EF060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3130911C377DAD006EF060 /* LaunchScreen.storyboard */; };
 		5F31309E1C377DAD006EF060 /* DynamicActionBlockDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F31309D1C377DAD006EF060 /* DynamicActionBlockDemo_SwiftTests.swift */; };
 		5F3130A91C377DAD006EF060 /* DynamicActionBlockDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3130A81C377DAD006EF060 /* DynamicActionBlockDemo_SwiftUITests.swift */; };
+		5F3130BB1C37A186006EF060 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3130BA1C37A186006EF060 /* DynamicView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F3130A41C377DAD006EF060 /* DynamicActionBlockDemo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamicActionBlockDemo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3130A81C377DAD006EF060 /* DynamicActionBlockDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicActionBlockDemo_SwiftUITests.swift; sourceTree = "<group>"; };
 		5F3130AA1C377DAD006EF060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3130BA1C37A186006EF060 /* DynamicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5F3130881C377DAD006EF060 /* AppDelegate.swift */,
 				5F31308A1C377DAD006EF060 /* ViewController.swift */,
+				5F3130BA1C37A186006EF060 /* DynamicView.swift */,
 				5F31308C1C377DAD006EF060 /* Main.storyboard */,
 				5F31308F1C377DAD006EF060 /* Assets.xcassets */,
 				5F3130911C377DAD006EF060 /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3130BB1C37A186006EF060 /* DynamicView.swift in Sources */,
 				5F31308B1C377DAD006EF060 /* ViewController.swift in Sources */,
 				5F3130891C377DAD006EF060 /* AppDelegate.swift in Sources */,
 			);
