@@ -9,24 +9,18 @@
 #import "SlideMenuButton.h"
 
 @interface SlideMenuButton()
-
 @property(nonatomic,strong)NSString *buttonTitle;
-
 @end
 
 @implementation SlideMenuButton
-
 
 -(id)initWithTitle:(NSString *)title{
     
     self = [super init];
     if (self) {
-        
         self.buttonTitle = title;
-        
     }
     return self;
-    
 }
 
 // Only override drawRect: if you perform custom drawing.
@@ -38,7 +32,6 @@
     [self.buttonColor set];
     CGContextFillPath(context);
 
-    
     UIBezierPath* roundedRectanglePath = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(rect, 1, 1) cornerRadius: rect.size.height/2];
     [self.buttonColor setFill];
     [roundedRectanglePath fill];
@@ -48,9 +41,6 @@
     
     NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
     paragraphStyle.alignment = NSTextAlignmentCenter;
-    
-    
-    
     NSDictionary *attr = @{NSParagraphStyleAttributeName:paragraphStyle,NSFontAttributeName:[UIFont systemFontOfSize:24.0f],NSForegroundColorAttributeName:[UIColor whiteColor]};
     CGSize size = [self.buttonTitle sizeWithAttributes:attr];
     
@@ -62,7 +52,6 @@
     [self.buttonTitle drawInRect:r withAttributes:attr];
     
 }
-
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
@@ -79,9 +68,5 @@
     }
     
 }
-
-
-
-
 
 @end

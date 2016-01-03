@@ -20,36 +20,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"首页";
-    // Do any additional setup after loading the view, typically from a nib.
-    
     menu = [[GooeySlideMenu alloc]initWithTitles:@[@"首页",@"消息",@"发布",@"发现",@"个人",@"设置"]];
     menu.menuClickBlock = ^(NSInteger index,NSString *title,NSInteger titleCounts){
-        
         NSLog(@"index:%ld title:%@ titleCounts:%ld",index,title,titleCounts);
     };
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 - (IBAction)buttonTrigger:(id)sender {
     [menu trigger];
 }
 
-
-
 #pragma mark -- UITabel View Datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
     return 20;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"demoCell"];
     cell.textLabel.text = [NSString stringWithFormat:@"NO.%ld",(long)indexPath.row];
-    
     return cell;
 }
 

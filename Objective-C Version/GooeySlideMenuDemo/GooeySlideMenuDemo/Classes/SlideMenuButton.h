@@ -10,7 +10,6 @@
 
 @interface SlideMenuButton : UIView
 
-
 /**
  *  onvenient init method
  *
