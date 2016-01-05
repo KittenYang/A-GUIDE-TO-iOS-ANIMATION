@@ -130,7 +130,6 @@
 
 -(void)trigger{
     if (!triggered) {
-        
         [keyWindow insertSubview:blurView belowSubview:self];
         [UIView animateWithDuration:0.3 animations:^{
             self.frame = self.bounds;
@@ -146,6 +145,7 @@
         [UIView animateWithDuration:0.3 animations:^{
             blurView.alpha = 1.0f;
         }];
+        
         [self beforeAnimation];
         [UIView animateWithDuration:0.7 delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:2.0f options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction animations:^{
             helperCenterView.center = keyWindow.center;
@@ -193,7 +193,6 @@
     }];
     
     [self beforeAnimation];
-    
     [UIView animateWithDuration:0.7 delay:0.0f usingSpringWithDamping:0.7f initialSpringVelocity:2.0f options:UIViewAnimationOptionBeginFromCurrentState | UIViewAnimationOptionAllowUserInteraction animations:^{
         helperCenterView.center = CGPointMake(-helperSideView.frame.size.height/2, CGRectGetHeight(keyWindow.frame)/2);
     } completion:^(BOOL finished) {

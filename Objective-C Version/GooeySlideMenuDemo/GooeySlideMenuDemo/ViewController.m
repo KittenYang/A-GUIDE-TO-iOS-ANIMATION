@@ -26,11 +26,12 @@
     };
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
 - (IBAction)buttonTrigger:(id)sender {
     [menu trigger];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
 }
 
 #pragma mark -- UITabel View Datasource
