@@ -21,16 +21,13 @@
     [_jumpStarView layoutIfNeeded];
     _jumpStarView.markedImage = [UIImage imageNamed:@"icon_star_incell"];
     _jumpStarView.non_markedImage = [UIImage imageNamed:@"blue_dot"];
-    _jumpStarView.state = non_Mark;
+    _jumpStarView.state = NONMark;
 }
 
 - (IBAction)tapped:(id)sender {
     
     [_jumpStarView animate];
-    
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

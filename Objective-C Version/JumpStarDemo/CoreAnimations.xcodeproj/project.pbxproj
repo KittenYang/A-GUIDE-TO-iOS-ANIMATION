@@ -88,7 +88,7 @@
 				5F5205E21BA9B1D40066BEC6 /* AppDelegate.m */,
 				5F5205E41BA9B1D40066BEC6 /* ViewController.h */,
 				5F5205E51BA9B1D40066BEC6 /* ViewController.m */,
-				5F5206061BA9B90C0066BEC6 /* TapToStarView */,
+				5F5206061BA9B90C0066BEC6 /* JumpStarView */,
 				5F5205E71BA9B1D40066BEC6 /* Main.storyboard */,
 				5F5205EA1BA9B1D40066BEC6 /* Images.xcassets */,
 				5F5205EC1BA9B1D40066BEC6 /* LaunchScreen.xib */,
@@ -123,13 +123,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5F5206061BA9B90C0066BEC6 /* TapToStarView */ = {
+		5F5206061BA9B90C0066BEC6 /* JumpStarView */ = {
 			isa = PBXGroup;
 			children = (
 				5F5206081BA9E6240066BEC6 /* JumpStarView.h */,
 				5F5206091BA9E6240066BEC6 /* JumpStarView.m */,
 			);
-			name = TapToStarView;
+			name = JumpStarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,6 +432,7 @@
 				5F5205FF1BA9B1D50066BEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F5206001BA9B1D50066BEC6 /* Build configuration list for PBXNativeTarget "CoreAnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				5F5206021BA9B1D50066BEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef enum : NSUInteger {
-    non_Mark,
+    NONMark,
     Mark,
 }STATE;
 

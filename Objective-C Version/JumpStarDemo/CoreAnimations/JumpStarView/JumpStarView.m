@@ -13,11 +13,10 @@
 #define downDuration 0.215
 
 @interface JumpStarView()
-
 @property(nonatomic,strong)UIImageView *starView;
 @property(nonatomic,strong)UIImageView *shadowView;
-
 @end
+
 @implementation JumpStarView{
     BOOL animating;
 }
@@ -44,17 +43,13 @@
         self.shadowView.alpha = 0.4;
         self.shadowView.image = [UIImage imageNamed:@"shadow_new"];
         [self addSubview:self.shadowView];
-        
     }
     
 }
 
-
-
 -(void)setState:(STATE)state{
     _state = state;
     self.starView.image = _state==Mark? _markedImage : _non_markedImage;
-    
 }
 
 //上弹动画
@@ -88,13 +83,10 @@
 
 - (void)animationDidStart:(CAAnimation *)anim{
     
-    
     if ([anim isEqual:[self.starView.layer animationForKey:@"jumpUp"]]) {
         [UIView animateWithDuration:jumpDuration delay:0.0f options:UIViewAnimationOptionCurveEaseOut animations:^{
-            
             _shadowView.alpha = 0.2;
             _shadowView.bounds = CGRectMake(0, 0, _shadowView.bounds.size.width*1.6, _shadowView.bounds.size.height);
-            
         } completion:NULL];
         
     }else if ([anim isEqual:[self.starView.layer animationForKey:@"jumpDown"]]){
@@ -109,14 +101,13 @@
     }
 }
 
-
 //下落动画
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     
     
     if ([anim isEqual:[self.starView.layer animationForKey:@"jumpUp"]]) {
         
-        self.state = self.state==Mark?non_Mark:Mark;
+        self.state = self.state==Mark?NONMark:Mark;
         NSLog(@"state:%ld",_state);
         CABasicAnimation *transformAnima = [CABasicAnimation animationWithKeyPath:@"transform.rotation.y"];
         transformAnima.fromValue = @(M_PI_2);
@@ -144,6 +135,5 @@
     }
     
 }
-
 
 @end
