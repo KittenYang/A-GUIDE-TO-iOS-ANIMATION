@@ -10,13 +10,12 @@
 #define SCREENWIDTH     [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT    [UIScreen mainScreen].bounds.size.height
 #define ANIMATEDURATION 0.5
-#define ANIMATEDAMPING  0.7
+#define ANIMATEDAMPING  0.6
 #define SCROLLDISTANCE  200.0
 
 #import "InteractiveView.h"
 
 @interface InteractiveView()
-
 
 @end
 
@@ -29,7 +28,6 @@
     }
     return self;
 }
-
 
 -(id)initWithImage:(UIImage *)image{
     self =  [super initWithImage:image];
@@ -48,24 +46,17 @@
 }
 
 -(void)panGestureRecognized:(UIPanGestureRecognizer *)pan{
-    
     static CGPoint initialPoint;
     CGFloat factorOfAngle = 0.0f;
     CGFloat factorOfScale = 0.0f;
     CGPoint transition = [pan translationInView:self.superview];
     
     if (pan.state == UIGestureRecognizerStateBegan) {
-
         initialPoint = self.center;
-
-        
     }else if(pan.state == UIGestureRecognizerStateChanged){
-        
         self.center = CGPointMake(initialPoint.x,initialPoint.y + transition.y);
-
-        
         CGFloat Y =MIN(SCROLLDISTANCE,MAX(0,ABS(transition.y)));
-        
+
         //一个开口向下,顶点(SCROLLDISTANCE/2,1),过(0,0),(SCROLLDISTANCE,0)的二次函数
         factorOfAngle = MAX(0,-4/(SCROLLDISTANCE*SCROLLDISTANCE)*Y*(Y-SCROLLDISTANCE));
         //一个开口向下,顶点(SCROLLDISTANCE,1),过(0,0),(2*SCROLLDISTANCE,0)的二次函数
@@ -78,21 +69,14 @@
         
         self.layer.transform = t;
         self.dimmingView.alpha = 1.0 - Y / SCROLLDISTANCE;
-        
-        
     }else if ((pan.state == UIGestureRecognizerStateEnded) || (pan.state ==UIGestureRecognizerStateCancelled)){
-        
-        [UIView animateWithDuration:ANIMATEDURATION delay:0.0f usingSpringWithDamping:0.6f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-            
+        [UIView animateWithDuration:ANIMATEDURATION delay:0.0f usingSpringWithDamping:ANIMATEDAMPING initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
             self.layer.transform = CATransform3DIdentity;
             self.center = initialPoint;
             self.dimmingView.alpha = 1.0f;
-            
         } completion:nil];
-
     }
     
 }
-
 
 @end

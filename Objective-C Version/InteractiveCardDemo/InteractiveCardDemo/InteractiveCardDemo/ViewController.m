@@ -32,11 +32,8 @@
     //interactiveView 的父视图。注意：interactiveView 和 blurView 不能添加到同一个父视图。否则透视效果会使 interactiveView 穿过 blurView
     UIView *backView = [[UIView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:backView];
-    
     [backView addSubview:interactiveView];
     
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
