@@ -11,7 +11,6 @@
 
 @interface KYSpringLayerAnimation : NSObject
 
-
 +(instancetype)sharedAnimManager;
 
 //Normal Anim -- 线性函数

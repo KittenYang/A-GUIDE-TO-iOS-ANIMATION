@@ -10,9 +10,6 @@
 #define OFF 30
 
 @interface MenuLayer ()
-
-
-
 @end
 
 @implementation MenuLayer
@@ -25,21 +22,17 @@
     return self;
 }
 
-
 -(id)initWithLayer:(MenuLayer *)layer{
     self = [super initWithLayer:layer];
     if (self) {
-        
         //...在这里拷贝layer 的所有 property
         self.showDebug = layer.showDebug;
         self.xAxisPercent = layer.xAxisPercent;
         self.animState = layer.animState;
-        
     }
     return self;
     
 }
-
 
 +(BOOL)needsDisplayForKey:(NSString *)key{
     if ([key isEqualToString:@"xAxisPercent"]) {
@@ -50,7 +43,6 @@
 }
 
 -(void)drawInContext:(CGContextRef)ctx{
-    
     CGRect real_rect = CGRectInset(self.frame, OFF,OFF);
     CGFloat offset = real_rect.size.width/ 3.6;
     CGPoint center = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
@@ -62,14 +54,12 @@
     CGPoint top_right;
     
     if (_animState == STATE1) {
-        
         moveDistance_1 = _xAxisPercent*(real_rect.size.width/2 - offset)/2;
         top_left   =  CGPointMake(center.x-offset-moveDistance_1*2, OFF);
         top_center =  CGPointMake(center.x-moveDistance_1, OFF);
         top_right  =  CGPointMake(center.x+offset, OFF);
         
     }else if(_animState == STATE2){
-        
         CGFloat hightFactor;
         if (_xAxisPercent >= 0.2) {
             hightFactor = 1-_xAxisPercent;
@@ -83,7 +73,6 @@
         top_right  =  CGPointMake(center.x+offset+moveDistance_2, OFF);
         
     }else if(_animState == STATE3){
-        
         moveDistance_1 = (real_rect.size.width/2 - offset)/2;
         moveDistance_2 = (real_rect.size.width/3);
         CGFloat gooeyDis_1 = _xAxisPercent*(center.x-offset-moveDistance_1*2 + moveDistance_2-(center.x-offset));
@@ -96,7 +85,6 @@
         
     }
     
-
     CGPoint right_top    =  CGPointMake(CGRectGetMaxX(real_rect), center.y-offset);
     CGPoint right_center =  CGPointMake(CGRectGetMaxX(real_rect), center.y);
     CGPoint right_bottom =  CGPointMake(CGRectGetMaxX(real_rect), center.y+offset);
@@ -109,7 +97,6 @@
     CGPoint left_center =  CGPointMake(OFF, center.y);
     CGPoint left_bottom =  CGPointMake(OFF, center.y+offset);
     
-    
     UIBezierPath *circlePath = [UIBezierPath bezierPath];
     [circlePath moveToPoint:top_center];
     [circlePath addCurveToPoint:right_center controlPoint1:top_right controlPoint2:right_top];
@@ -118,14 +105,11 @@
     [circlePath addCurveToPoint:top_center controlPoint1:left_top controlPoint2:top_left];
     [circlePath closePath];
     
-    
     CGContextAddPath(ctx, circlePath.CGPath);
     CGContextSetFillColorWithColor(ctx, [UIColor colorWithRed:29.0/255.0 green:163.0/255.0 blue:1 alpha:1].CGColor);
     CGContextFillPath(ctx);
 
-    
     if (_showDebug) {
-        
         CGContextSetFillColorWithColor(ctx, [UIColor blueColor].CGColor);
         
         [self showPoint:top_left context:ctx];
@@ -148,10 +132,7 @@
     
 }
 
-
-
 -(void)showPoint:(CGPoint)point context:(CGContextRef)ctx{
-
     NSLog(@"%@",NSStringFromCGPoint(point));
     CGRect rect = CGRectMake(point.x-1, point.y-1, 2, 2);
     CGContextFillRect(ctx, rect);

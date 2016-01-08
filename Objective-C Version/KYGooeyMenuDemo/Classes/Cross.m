@@ -10,26 +10,7 @@
 
 @implementation Cross
 
-
-- (void)drawRect:(CGRect)rect {
-//    //// Rounded Rectangle Drawing
-//    UIBezierPath* roundedRectanglePath = [UIBezierPath bezierPathWithRoundedRect: CGRectMake(self.center.x-4,0, 8, self.frame.size.height) cornerRadius: 4];
-//    [[UIColor blackColor] setFill];
-//    [roundedRectanglePath fill];
-//    [[UIColor blackColor] setStroke];
-//    roundedRectanglePath.lineWidth = 1;
-//    [roundedRectanglePath stroke];
-//    
-//    
-//    //// Rounded Rectangle 2 Drawing
-//    UIBezierPath* roundedRectangle2Path = [UIBezierPath bezierPathWithRoundedRect: CGRectMake(0, self.center.y -4 , self.frame.size.width, 8) cornerRadius: 4];
-//    [[UIColor blackColor] setFill];
-//    [roundedRectangle2Path fill];
-//    [[UIColor blackColor] setStroke];
-//    roundedRectangle2Path.lineWidth = 1;
-//    [roundedRectangle2Path stroke];
-
-    
+- (void)drawRect:(CGRect)rect {    
     [super drawRect:rect];
     
     CGMutablePathRef path = CGPathCreateMutable();
@@ -49,6 +30,5 @@
     CGContextStrokePath(ctx);
     
 }
-
 
 @end

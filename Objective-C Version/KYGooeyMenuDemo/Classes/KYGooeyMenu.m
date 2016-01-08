@@ -16,7 +16,6 @@
 
 @end
 
-
 @implementation KYGooeyMenu{
     NSMutableDictionary *PointsDic;
     NSMutableArray *Menus;
@@ -41,12 +40,10 @@
 }
 
 
-
 -(id)initWithOrigin:(CGPoint)origin andDiameter:(CGFloat)diameter andSuperView:(UIView *)superView themeColor:(UIColor *)themeColor{
     menuFrame = CGRectMake(origin.x, origin.y, diameter, diameter);
     self = [super initWithFrame:menuFrame];
 
-    
     if (self) {
         PointsDic = [NSMutableDictionary dictionary];
         menuColor = themeColor;
@@ -55,7 +52,6 @@
         [self.containerView addSubview:self];
         once = NO;
         [self addSomeViews];
-        
     }
     
     return self;
@@ -84,11 +80,9 @@
     
     UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapToSwitchOpenOrClose)];
     [self.mainView addGestureRecognizer:tapGes];
-
 }
 
 -(void)setUpSomeDatas{
-
     
     //-----------Calculate the destination point of items----------
     R = self.mainView.bounds.size.width / 2;
@@ -100,8 +94,6 @@
     //the degree of every two items
     CGFloat degree = (180/(menuCount+1))*(M_PI/180);
     
-    
-
     CGPoint originPoint = self.mainView.center;
     for (int i = 0; i < menuCount; i++) {
         CGFloat cosDegree = cosf(degree * (i+1));
@@ -336,8 +328,5 @@
     }
     
 }
-
-
-
 
 @end
