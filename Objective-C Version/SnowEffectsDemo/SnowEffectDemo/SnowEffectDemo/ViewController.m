@@ -21,7 +21,7 @@
     CAEmitterLayer *snowEmitter = [CAEmitterLayer layer];
 
 	snowEmitter.emitterPosition = CGPointMake(self.view.bounds.size.width / 2.0, -30);
-	snowEmitter.emitterSize  = CGSizeMake(self.view.bounds.size.width * 2.0, 0.0);;
+	snowEmitter.emitterSize  = CGSizeMake(self.view.bounds.size.width * 2.0, 0.0);
 	snowEmitter.emitterShape = kCAEmitterLayerLine;
 	snowEmitter.emitterMode  = kCAEmitterLayerOutline;
 
