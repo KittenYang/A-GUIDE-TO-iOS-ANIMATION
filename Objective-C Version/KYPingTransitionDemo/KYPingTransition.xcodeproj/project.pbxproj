@@ -74,6 +74,8 @@
 			children = (
 				5F5777F71A7B879A00FC3A61 /* PingTransition.h */,
 				5F5777F81A7B879A00FC3A61 /* PingTransition.m */,
+				5F5777FA1A7BDC9200FC3A61 /* PingInvertTransition.h */,
+				5F5777FB1A7BDC9200FC3A61 /* PingInvertTransition.m */,
 			);
 			name = class;
 			sourceTree = "<group>";
@@ -107,8 +109,6 @@
 				5F5777FE1A7CABB000FC3A61 /* SecondViewController.m */,
 				5F5777DB1A7B6F5B00FC3A61 /* Main.storyboard */,
 				5F3362F21AE295DE00D574A1 /* class */,
-				5F5777FA1A7BDC9200FC3A61 /* PingInvertTransition.h */,
-				5F5777FB1A7BDC9200FC3A61 /* PingInvertTransition.m */,
 				5F5777DE1A7B6F5B00FC3A61 /* Images.xcassets */,
 				5F5777E01A7B6F5B00FC3A61 /* LaunchScreen.xib */,
 				5F5777D11A7B6F5B00FC3A61 /* Supporting Files */,

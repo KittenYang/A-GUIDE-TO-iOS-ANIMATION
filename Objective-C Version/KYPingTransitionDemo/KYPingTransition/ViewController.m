@@ -21,18 +21,13 @@
     [super viewDidLoad];
 }
 
-
-
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
 
-
-
 #pragma mark - UINavigationControllerDelegate
+
 - (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
                                    animationControllerForOperation:(UINavigationControllerOperation)operation
                                                 fromViewController:(UIViewController *)fromVC
@@ -45,4 +40,5 @@
         return nil;
     }
 }
+
 @end

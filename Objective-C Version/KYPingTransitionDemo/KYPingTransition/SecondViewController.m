@@ -15,7 +15,6 @@
 @end
 
 @implementation SecondViewController{
-    
     UIPercentDrivenInteractiveTransition *percentTransition;
 }
 -(void)viewWillAppear:(BOOL)animated{
@@ -31,7 +30,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
@@ -40,9 +38,6 @@
     return percentTransition;
 }
 
-- (IBAction)clickToPop:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
 
 -(void)edgePan:(UIPanGestureRecognizer *)recognizer{
     CGFloat per = [recognizer translationInView:self.view].x / (self.view.bounds.size.width);

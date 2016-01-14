@@ -11,21 +11,16 @@
 #import "SecondViewController.h"
 
 @interface PingInvertTransition()
-
 @property(nonatomic,strong)id<UIViewControllerContextTransitioning>transitionContext;
-
 @end
 
 @implementation PingInvertTransition
-
-
 
 - (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext{
     return 0.7f;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
-    
     
     self.transitionContext = transitionContext;
     
@@ -43,7 +38,7 @@
     
     CGPoint finalPoint;
     
-    //判断触发点在那个象限
+    //判断触发点在哪个象限
     if(button.frame.origin.x > (toVC.view.bounds.size.width / 2)){
         if (button.frame.origin.y < (toVC.view.bounds.size.height / 2)) {
             //第一象限
@@ -62,16 +57,13 @@
         }
     }
 
-    
-
     CGFloat radius = sqrt(finalPoint.x * finalPoint.x + finalPoint.y * finalPoint.y);
     UIBezierPath *startPath = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(button.frame, -radius, -radius)];
     
     CAShapeLayer *maskLayer = [CAShapeLayer layer];
     maskLayer.path = finalPath.CGPath;
     fromVC.view.layer.mask = maskLayer;
-    
-    
+
     CABasicAnimation *pingAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
     pingAnimation.fromValue = (__bridge id)(startPath.CGPath);
     pingAnimation.toValue   = (__bridge id)(finalPath.CGPath);
@@ -84,19 +76,11 @@
     
 }
 
-
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     
     [self.transitionContext completeTransition:![self.transitionContext transitionWasCancelled]];
     [self.transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey].view.layer.mask = nil;
     [self.transitionContext viewControllerForKey:UITransitionContextToViewControllerKey].view.layer.mask = nil;
-
 }
 
-
 @end
-
-
-
-
-
