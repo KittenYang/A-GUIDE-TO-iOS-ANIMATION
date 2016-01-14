@@ -39,7 +39,6 @@
     [navc.view addSubview:maskBackgroundView];
     [navc.view bringSubviewToFront:maskBackgroundView];
     
-    
     //logo mask animation
     CAKeyframeAnimation *logoMaskAnimaiton = [CAKeyframeAnimation animationWithKeyPath:@"bounds"];
     logoMaskAnimaiton.duration = 1.0f;
@@ -55,34 +54,22 @@
     logoMaskAnimaiton.fillMode = kCAFillModeForwards;
     [navc.view.layer.mask addAnimation:logoMaskAnimaiton forKey:@"logoMaskAnimaiton"];
     
-    
     //maskBackgroundView fade animation
     [UIView animateWithDuration:0.1 delay:1.35 options:UIViewAnimationOptionCurveEaseIn animations:^{
-
         maskBackgroundView.alpha = 0.0;
-        
     } completion:^(BOOL finished) {
-        
         [maskBackgroundView removeFromSuperview];
-        
     }];
-    
     
     //navc.view bounce animation
     [UIView animateWithDuration:0.25 delay:1.3 options:UIViewAnimationOptionTransitionNone animations:^{
-
         navc.view.transform = CGAffineTransformMakeScale(1.05, 1.05);
-        
     } completion:^(BOOL finished) {
 
         [UIView animateWithDuration:0.3 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-
             navc.view.transform = CGAffineTransformIdentity;
-            
         } completion:^(BOOL finished) {
-
             navc.view.layer.mask = nil;
-            
         }];
     }];
     
