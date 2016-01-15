@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>tvOSCardAnimation-Swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5F444FA61C4945ED00FA2868</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F444FBA1C4945EE00FA2868</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F444FC51C4945EE00FA2868</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
