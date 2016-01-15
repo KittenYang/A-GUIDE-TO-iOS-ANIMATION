@@ -35,7 +35,6 @@
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panOnIt:)];
     [self.lockScreenView addGestureRecognizer:pan];
     
-    
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -64,10 +63,7 @@
     self.itemBehaviour.elasticity = 0.35f;//1.0 完全弹性碰撞，需要非常久才能恢复；
     [self.animator addBehavior:_itemBehaviour];
 
-    
 }
-
-
 
 -(void)tapOnIt:(UITapGestureRecognizer *)tapGes{
     self.pushBehavior.pushDirection = CGVectorMake(0.0f, -80.0f);
@@ -122,8 +118,8 @@
             [self restore:nil];
             
         }
-        
     }
+    
 }
 
 - (IBAction)restore:(id)sender {
@@ -143,11 +139,11 @@
     [self.animator addBehavior:_itemBehaviour];
     
     [self.animator addBehavior:self.gravityBehaviour];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

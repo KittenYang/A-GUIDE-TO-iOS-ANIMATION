@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIDynamicsDemo_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,22 +17,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygh-TC-eMl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kph-vr-4xA">
                                 <rect key="frame" x="285" y="285" width="30" height="30"/>
-                                <state key="normal" title="恢复">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="恢复"/>
                                 <connections>
-                                    <action selector="restore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ga-oy-ULm"/>
+                                    <action selector="restore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X7w-nC-qd5"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="ygh-TC-eMl" secondAttribute="centerX" id="e3g-Sk-OFM"/>
-                            <constraint firstAttribute="centerY" secondItem="ygh-TC-eMl" secondAttribute="centerY" id="qFc-JF-wdN"/>
+                            <constraint firstItem="kph-vr-4xA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ul5-EB-gfs"/>
+                            <constraint firstItem="kph-vr-4xA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zaT-NI-LUK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="restoreButton" destination="kph-vr-4xA" id="0gx-yG-F3E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
