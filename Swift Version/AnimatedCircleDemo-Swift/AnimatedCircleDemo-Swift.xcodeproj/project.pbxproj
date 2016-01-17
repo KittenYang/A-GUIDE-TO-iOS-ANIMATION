@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F85F95E1C4BF2670062A057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F95D1C4BF2670062A057 /* AppDelegate.swift */; };
+		5F85F9601C4BF2670062A057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F95F1C4BF2670062A057 /* ViewController.swift */; };
+		5F85F9631C4BF2670062A057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F85F9611C4BF2670062A057 /* Main.storyboard */; };
+		5F85F9651C4BF2670062A057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F85F9641C4BF2670062A057 /* Assets.xcassets */; };
+		5F85F9681C4BF2670062A057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F85F9661C4BF2670062A057 /* LaunchScreen.storyboard */; };
+		5F85F9731C4BF2670062A057 /* AnimatedCircleDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F9721C4BF2670062A057 /* AnimatedCircleDemo_SwiftTests.swift */; };
+		5F85F97E1C4BF2670062A057 /* AnimatedCircleDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F97D1C4BF2670062A057 /* AnimatedCircleDemo_SwiftUITests.swift */; };
+		5F85F98C1C4BF29F0062A057 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F98B1C4BF29F0062A057 /* CircleLayer.swift */; };
+		5F85F98E1C4BF86B0062A057 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85F98D1C4BF86B0062A057 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F85F96F1C4BF2670062A057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F85F9521C4BF2660062A057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F85F9591C4BF2660062A057;
+			remoteInfo = "AnimatedCircleDemo-Swift";
+		};
+		5F85F97A1C4BF2670062A057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F85F9521C4BF2660062A057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F85F9591C4BF2660062A057;
+			remoteInfo = "AnimatedCircleDemo-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F85F95A1C4BF2660062A057 /* AnimatedCircleDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimatedCircleDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F85F95D1C4BF2670062A057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F85F95F1C4BF2670062A057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F85F9621C4BF2670062A057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F85F9641C4BF2670062A057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F85F9671C4BF2670062A057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F85F9691C4BF2670062A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F85F96E1C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnimatedCircleDemo-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F85F9721C4BF2670062A057 /* AnimatedCircleDemo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircleDemo_SwiftTests.swift; sourceTree = "<group>"; };
+		5F85F9741C4BF2670062A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F85F9791C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnimatedCircleDemo-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F85F97D1C4BF2670062A057 /* AnimatedCircleDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircleDemo_SwiftUITests.swift; sourceTree = "<group>"; };
+		5F85F97F1C4BF2670062A057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F85F98B1C4BF29F0062A057 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleLayer.swift; path = Classes/CircleLayer.swift; sourceTree = "<group>"; };
+		5F85F98D1C4BF86B0062A057 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = Classes/CircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F85F9571C4BF2660062A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F96B1C4BF2670062A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F9761C4BF2670062A057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F85F9511C4BF2660062A057 = {
+			isa = PBXGroup;
+			children = (
+				5F85F95C1C4BF2660062A057 /* AnimatedCircleDemo-Swift */,
+				5F85F9711C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests */,
+				5F85F97C1C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests */,
+				5F85F95B1C4BF2660062A057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F85F95B1C4BF2660062A057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F85F95A1C4BF2660062A057 /* AnimatedCircleDemo-Swift.app */,
+				5F85F96E1C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests.xctest */,
+				5F85F9791C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F85F95C1C4BF2660062A057 /* AnimatedCircleDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5F85F95D1C4BF2670062A057 /* AppDelegate.swift */,
+				5F85F95F1C4BF2670062A057 /* ViewController.swift */,
+				5F85F98B1C4BF29F0062A057 /* CircleLayer.swift */,
+				5F85F98D1C4BF86B0062A057 /* CircleView.swift */,
+				5F85F9611C4BF2670062A057 /* Main.storyboard */,
+				5F85F9641C4BF2670062A057 /* Assets.xcassets */,
+				5F85F9661C4BF2670062A057 /* LaunchScreen.storyboard */,
+				5F85F9691C4BF2670062A057 /* Info.plist */,
+			);
+			path = "AnimatedCircleDemo-Swift";
+			sourceTree = "<group>";
+		};
+		5F85F9711C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F85F9721C4BF2670062A057 /* AnimatedCircleDemo_SwiftTests.swift */,
+				5F85F9741C4BF2670062A057 /* Info.plist */,
+			);
+			path = "AnimatedCircleDemo-SwiftTests";
+			sourceTree = "<group>";
+		};
+		5F85F97C1C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F85F97D1C4BF2670062A057 /* AnimatedCircleDemo_SwiftUITests.swift */,
+				5F85F97F1C4BF2670062A057 /* Info.plist */,
+			);
+			path = "AnimatedCircleDemo-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F85F9591C4BF2660062A057 /* AnimatedCircleDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F85F9821C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-Swift" */;
+			buildPhases = (
+				5F85F9561C4BF2660062A057 /* Sources */,
+				5F85F9571C4BF2660062A057 /* Frameworks */,
+				5F85F9581C4BF2660062A057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnimatedCircleDemo-Swift";
+			productName = "AnimatedCircleDemo-Swift";
+			productReference = 5F85F95A1C4BF2660062A057 /* AnimatedCircleDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F85F96D1C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F85F9851C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-SwiftTests" */;
+			buildPhases = (
+				5F85F96A1C4BF2670062A057 /* Sources */,
+				5F85F96B1C4BF2670062A057 /* Frameworks */,
+				5F85F96C1C4BF2670062A057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F85F9701C4BF2670062A057 /* PBXTargetDependency */,
+			);
+			name = "AnimatedCircleDemo-SwiftTests";
+			productName = "AnimatedCircleDemo-SwiftTests";
+			productReference = 5F85F96E1C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F85F9781C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F85F9881C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-SwiftUITests" */;
+			buildPhases = (
+				5F85F9751C4BF2670062A057 /* Sources */,
+				5F85F9761C4BF2670062A057 /* Frameworks */,
+				5F85F9771C4BF2670062A057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F85F97B1C4BF2670062A057 /* PBXTargetDependency */,
+			);
+			name = "AnimatedCircleDemo-SwiftUITests";
+			productName = "AnimatedCircleDemo-SwiftUITests";
+			productReference = 5F85F9791C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F85F9521C4BF2660062A057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5F85F9591C4BF2660062A057 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5F85F96D1C4BF2670062A057 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5F85F9591C4BF2660062A057;
+					};
+					5F85F9781C4BF2670062A057 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5F85F9591C4BF2660062A057;
+					};
+				};
+			};
+			buildConfigurationList = 5F85F9551C4BF2660062A057 /* Build configuration list for PBXProject "AnimatedCircleDemo-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F85F9511C4BF2660062A057;
+			productRefGroup = 5F85F95B1C4BF2660062A057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F85F9591C4BF2660062A057 /* AnimatedCircleDemo-Swift */,
+				5F85F96D1C4BF2670062A057 /* AnimatedCircleDemo-SwiftTests */,
+				5F85F9781C4BF2670062A057 /* AnimatedCircleDemo-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F85F9581C4BF2660062A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F85F9681C4BF2670062A057 /* LaunchScreen.storyboard in Resources */,
+				5F85F9651C4BF2670062A057 /* Assets.xcassets in Resources */,
+				5F85F9631C4BF2670062A057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F96C1C4BF2670062A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F9771C4BF2670062A057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F85F9561C4BF2660062A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F85F98E1C4BF86B0062A057 /* CircleView.swift in Sources */,
+				5F85F9601C4BF2670062A057 /* ViewController.swift in Sources */,
+				5F85F98C1C4BF29F0062A057 /* CircleLayer.swift in Sources */,
+				5F85F95E1C4BF2670062A057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F96A1C4BF2670062A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F85F9731C4BF2670062A057 /* AnimatedCircleDemo_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F85F9751C4BF2670062A057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F85F97E1C4BF2670062A057 /* AnimatedCircleDemo_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F85F9701C4BF2670062A057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F85F9591C4BF2660062A057 /* AnimatedCircleDemo-Swift */;
+			targetProxy = 5F85F96F1C4BF2670062A057 /* PBXContainerItemProxy */;
+		};
+		5F85F97B1C4BF2670062A057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F85F9591C4BF2660062A057 /* AnimatedCircleDemo-Swift */;
+			targetProxy = 5F85F97A1C4BF2670062A057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F85F9611C4BF2670062A057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F85F9621C4BF2670062A057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F85F9661C4BF2670062A057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F85F9671C4BF2670062A057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F85F9801C4BF2670062A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F85F9811C4BF2670062A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F85F9831C4BF2670062A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AnimatedCircleDemo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F85F9841C4BF2670062A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AnimatedCircleDemo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F85F9861C4BF2670062A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AnimatedCircleDemo-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCircleDemo-Swift.app/AnimatedCircleDemo-Swift";
+			};
+			name = Debug;
+		};
+		5F85F9871C4BF2670062A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AnimatedCircleDemo-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCircleDemo-Swift.app/AnimatedCircleDemo-Swift";
+			};
+			name = Release;
+		};
+		5F85F9891C4BF2670062A057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AnimatedCircleDemo-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AnimatedCircleDemo-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F85F98A1C4BF2670062A057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AnimatedCircleDemo-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnimatedCircleDemo-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AnimatedCircleDemo-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F85F9551C4BF2660062A057 /* Build configuration list for PBXProject "AnimatedCircleDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F85F9801C4BF2670062A057 /* Debug */,
+				5F85F9811C4BF2670062A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F85F9821C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F85F9831C4BF2670062A057 /* Debug */,
+				5F85F9841C4BF2670062A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F85F9851C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F85F9861C4BF2670062A057 /* Debug */,
+				5F85F9871C4BF2670062A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F85F9881C4BF2670062A057 /* Build configuration list for PBXNativeTarget "AnimatedCircleDemo-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F85F9891C4BF2670062A057 /* Debug */,
+				5F85F98A1C4BF2670062A057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F85F9521C4BF2660062A057 /* Project object */;
+}

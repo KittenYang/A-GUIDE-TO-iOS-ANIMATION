@@ -52,11 +52,9 @@ typedef enum MovingPoint {
 -(id)initWithLayer:(CircleLayer *)layer{
     self = [super initWithLayer:layer];
     if (self) {
-        
         self.progress    = layer.progress;
         self.outsideRect = layer.outsideRect;
         self.lastProgress = layer.lastProgress;
-        
     }
     return self;
 }
@@ -154,7 +152,6 @@ typedef enum MovingPoint {
 
 //在某个point位置画一个点，方便观察运动情况
 -(void)drawPoint:(NSArray *)points withContext:(CGContextRef)ctx{
-
     for (NSValue *pointValue in points) {
         CGPoint point = [pointValue CGPointValue];
         CGContextFillRect(ctx, CGRectMake(point.x - 2,point.y - 2,4,4));

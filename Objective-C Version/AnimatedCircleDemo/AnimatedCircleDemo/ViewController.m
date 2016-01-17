@@ -24,7 +24,6 @@
     [self.mySlider addTarget:self action:@selector(valuechanged:) forControlEvents:UIControlEventValueChanged];
 
     self.cv = [[CircleView alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2 - 320/2, self.view.frame.size.height/2 - 320/2, 320, 320)];
-//    self.cv.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.cv];
     
     //首次进入
@@ -36,8 +35,6 @@
     
     self.currentValueLabel.text = [NSString stringWithFormat:@"Current:  %f",sender.value];
     self.cv.circleLayer.progress = sender.value;
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
