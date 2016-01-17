@@ -157,7 +157,7 @@
     }
     
     if ([keyPath isEqualToString:@"contentOffset"]) {
-        CGPoint contentOffset = [[change valueForKey:NSKeyValueChangeNewKey] CGPointValue];
+        CGPoint contentOffset = [[change valueForKey:NSKeyValueChangeNewKey]CGPointValue];
         if (contentOffset.y >= (contentSize.height - self.associatedScrollView.height)) {
             
             self.center = CGPointMake(self.center.x, contentSize.height + (contentOffset.y - (contentSize.height - self.associatedScrollView.height))/2);

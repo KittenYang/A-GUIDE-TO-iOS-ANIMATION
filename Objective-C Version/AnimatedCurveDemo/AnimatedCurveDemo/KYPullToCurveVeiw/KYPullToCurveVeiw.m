@@ -20,10 +20,8 @@
 @end
 
 @implementation KYPullToCurveVeiw{
-    
     LabelView *labelView;
     CurveView *curveView;
-
     CGFloat originOffset;
     BOOL willEnd;
     BOOL notTracking;
@@ -48,11 +46,8 @@
         [self.associatedScrollView insertSubview:self atIndex:0];
         
     }
-    
     return self;
-    
 }
-
 
 -(void)setProgress:(CGFloat)progress{
     if (!self.associatedScrollView.tracking) {

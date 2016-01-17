@@ -170,10 +170,10 @@
 		F4E8F4EE1B4D082A00027A22 /* KYPullToCurveVeiw */ = {
 			isa = PBXGroup;
 			children = (
-				5F5C13E51B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.h */,
-				5F5C13E61B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m */,
 				F4E8F4EB1B4D082500027A22 /* KYPullToCurveVeiw.h */,
 				F4E8F4EC1B4D082500027A22 /* KYPullToCurveVeiw.m */,
+				5F5C13E51B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.h */,
+				5F5C13E61B57ED4F00A3EBE8 /* KYPullToCurveVeiw_footer.m */,
 				F4E8F4EA1B4D073A00027A22 /* Helper */,
 				F4E8F4E61B4CE47200027A22 /* LabelView */,
 				5FB874751B4CC70B008A3940 /* CurveView */,

@@ -15,14 +15,13 @@
 #define initialOffset 50.0
 #define targetHeight 500.0
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
 @implementation ViewController{
-
     UILabel *navTitle;
     UIView *bkView;
 }

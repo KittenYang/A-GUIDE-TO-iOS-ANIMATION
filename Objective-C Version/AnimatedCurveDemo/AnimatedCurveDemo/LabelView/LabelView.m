@@ -15,9 +15,6 @@
 
 #define kPullingString   self.state == UP ? kPullingUpString : kPullingDownString
 
-
-//#define self.state
-
 #define LabelHeight 50
 
 @interface LabelView()
@@ -45,11 +42,9 @@
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:titleLabel];
-    
 }
 
 -(void)setProgress:(CGFloat)progress{
-    
     titleLabel.alpha = progress;
     if (!self.loading) {
         if (progress >= 1.0) {
