@@ -107,13 +107,9 @@
 		5F85F99A1C4C0C160062A057 /* AnimatedCurveDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5F85F9D31C4C303F0062A057 /* Classes */,
 				5F85F99B1C4C0C160062A057 /* AppDelegate.swift */,
 				5F85F99D1C4C0C170062A057 /* ViewController.swift */,
-				5F85F9C91C4C0C590062A057 /* CurveLayer.swift */,
-				5F85F9CB1C4C14400062A057 /* CurveView.swift */,
-				5F85F9CD1C4C15570062A057 /* LabelView.swift */,
-				5F85F9D11C4C21E80062A057 /* CurveRefreshHeaderView.swift */,
-				5F85F9CF1C4C17EA0062A057 /* CurveRefreshFooterView.swift */,
 				5F85F99F1C4C0C170062A057 /* Main.storyboard */,
 				5F85F9A21C4C0C170062A057 /* Assets.xcassets */,
 				5F85F9A41C4C0C170062A057 /* LaunchScreen.storyboard */,
@@ -138,6 +134,18 @@
 				5F85F9BD1C4C0C1D0062A057 /* Info.plist */,
 			);
 			path = "AnimatedCurveDemo-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		5F85F9D31C4C303F0062A057 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F85F9C91C4C0C590062A057 /* CurveLayer.swift */,
+				5F85F9CB1C4C14400062A057 /* CurveView.swift */,
+				5F85F9CD1C4C15570062A057 /* LabelView.swift */,
+				5F85F9D11C4C21E80062A057 /* CurveRefreshHeaderView.swift */,
+				5F85F9CF1C4C17EA0062A057 /* CurveRefreshFooterView.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
