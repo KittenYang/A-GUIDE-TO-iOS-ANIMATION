@@ -22,31 +22,23 @@
 
 @interface LabelView()
 
-
 @end
 
 @implementation LabelView{
     UILabel *titleLabel;
 }
 
--(id)initWithFrame:(CGRect)frame{
-
+-(id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        
         [self setUp];
-
-
-
     }
     
     return self;
-    
 }
 
 
--(void)setUp{
-    
+-(void)setUp {
     self.state = DOWN;
     titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, self.height/2-LabelHeight/2, self.width, LabelHeight)];
     titleLabel.text = kPullingString;
@@ -56,11 +48,9 @@
     
 }
 
-
 -(void)setProgress:(CGFloat)progress{
     
     titleLabel.alpha = progress;
-    
     if (!self.loading) {
         if (progress >= 1.0) {
             titleLabel.text = kReleaseString;
@@ -68,19 +58,14 @@
             titleLabel.text = kPullingString;
         }
     }else{
-        
         if (progress >= 0.91) {
             titleLabel.text = kReleaseString;
         }else{
             titleLabel.text = kPullingString;
         }
-
-        
     }
     
-    
 }
-
 
 
 @end

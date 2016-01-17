@@ -8,20 +8,16 @@
 
 #import "ViewController.h"
 #import "UIView+Convenient.h"
-
 #import "KYPullToCurveVeiw.h"
 #import "KYPullToCurveVeiw_footer.h"
 
 
 #define initialOffset 50.0
-
 #define targetHeight 500.0
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
-
 
 @end
 
@@ -54,8 +50,6 @@
 }
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    
-
     CGFloat transitionY = MIN(MAX(0, scrollView.contentOffset.y+64), 44+initialOffset+targetHeight);
     NSLog(@"%f",transitionY);
     if (transitionY <= initialOffset) {
@@ -74,36 +68,25 @@
 
     KYPullToCurveVeiw *headerView = [[KYPullToCurveVeiw alloc]initWithAssociatedScrollView:self.tableView withNavigationBar:YES];
     
-    
     __weak KYPullToCurveVeiw *weakHeaderView = headerView;
-    
+
     [headerView triggerPulling];
-    
     [headerView addRefreshingBlock:^{
-        
         //具体的操作
-        //...
-        
         double delayInSeconds = 2.0;
         dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-            
             [weakHeaderView stopRefreshing];
-            
         });
         
     }];
-    
     
     KYPullToCurveVeiw_footer *footerView = [[KYPullToCurveVeiw_footer alloc]initWithAssociatedScrollView:self.tableView withNavigationBar:YES];
     
     __weak KYPullToCurveVeiw_footer *weakFooterView= footerView;
     
     [footerView addRefreshingBlock:^{
-        
         //具体的操作
-        //...
-        
         double delayInSeconds = 2.0;
         dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
@@ -111,32 +94,21 @@
             [weakFooterView stopRefreshing];
             
         });
-        
-        
     }];
-
     
 }
-
-
-
 
 #pragma mark -- UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
     return 50;
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
     UITableViewCell *testCell = [tableView dequeueReusableCellWithIdentifier:@"testCell" forIndexPath:indexPath];
     testCell.textLabel.text = [NSString stringWithFormat:@"第%ld条",(long)indexPath.row];
     return testCell;
     
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

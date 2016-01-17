@@ -20,7 +20,6 @@
 -(void)drawInContext:(CGContextRef)ctx{
 
     [super drawInContext:ctx];
-
     
     UIGraphicsPushContext(ctx);
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -52,7 +51,6 @@
         
         CGPoint pointA = CGPointMake(self.frame.size.width/2-Radius, CenterY - Space + LineLength - LineLength*(self.progress-0.5)*2);
         CGPoint pointB = CGPointMake(self.frame.size.width/2-Radius, CenterY - Space);
-
         
         [curvePath1 moveToPoint:pointA];
         [curvePath1 addLineToPoint:pointB];
@@ -63,8 +61,6 @@
         [arrowPath addLineToPoint:CGPointMake(curvePath1.currentPoint.x - 3*(cosf(Degree  - ((M_PI*9/10) * (self.progress-0.5)*2))), curvePath1.currentPoint.y + 3*(sinf(Degree - ((M_PI*9/10) * (self.progress-0.5)*2))))];
         [curvePath1 appendPath:arrowPath];
     }
-    
-    
     
     //Path 2
     UIBezierPath *curvePath2 = [UIBezierPath bezierPath];
@@ -96,26 +92,21 @@
 
     }
     
-    
     CGContextSaveGState(context);
     CGContextRestoreGState(context);
 
-    
     [[UIColor blackColor] setStroke];
     [arrowPath  stroke];
     [curvePath1 stroke];
     [curvePath2 stroke];
     
     UIGraphicsPopContext();
- 
     
 }
-
 
 #pragma mark -- Help Method
 
 -(CGPoint)getMiddlePointWithPoint1:(CGPoint)point1 point2:(CGPoint)point2{
-    
     CGFloat middle_x = (point1.x + point2.x)/2;
     CGFloat middle_y = (point1.y + point2.y)/2;
     
@@ -124,12 +115,7 @@
 }
 
 -(CGFloat)getDistanceWithPoint1:(CGPoint)point1 point2:(CGPoint)point2{
-    
     return sqrtf(pow(fabs(point1.x - point2.x), 2) + pow(fabs(point1.y - point2.y), 2));
-    
 }
-
-
-
 
 @end
