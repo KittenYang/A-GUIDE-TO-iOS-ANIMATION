@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE4ECCE1C4E67AE000BFA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECCD1C4E67AE000BFA16 /* AppDelegate.swift */; };
+		5FE4ECD01C4E67AE000BFA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECCF1C4E67AE000BFA16 /* ViewController.swift */; };
+		5FE4ECD31C4E67AE000BFA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4ECD11C4E67AE000BFA16 /* Main.storyboard */; };
+		5FE4ECD51C4E67AE000BFA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4ECD41C4E67AE000BFA16 /* Assets.xcassets */; };
+		5FE4ECD81C4E67AE000BFA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4ECD61C4E67AE000BFA16 /* LaunchScreen.storyboard */; };
+		5FE4ECE31C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECE21C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift */; };
+		5FE4ECEE1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECED1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift */; };
+		5FE4ECFC1C4E67D9000BFA16 /* KYCuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE4ECDF1C4E67AF000BFA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE4ECC21C4E67AE000BFA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE4ECC91C4E67AE000BFA16;
+			remoteInfo = "KYCuteView-Swift";
+		};
+		5FE4ECEA1C4E67AF000BFA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE4ECC21C4E67AE000BFA16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE4ECC91C4E67AE000BFA16;
+			remoteInfo = "KYCuteView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FE4ECCA1C4E67AE000BFA16 /* KYCuteView-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KYCuteView-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE4ECCD1C4E67AE000BFA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE4ECCF1C4E67AE000BFA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE4ECD21C4E67AE000BFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE4ECD41C4E67AE000BFA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE4ECD71C4E67AE000BFA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE4ECD91C4E67AE000BFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE4ECDE1C4E67AF000BFA16 /* KYCuteView-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KYCuteView-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE4ECE21C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCuteView_SwiftTests.swift; sourceTree = "<group>"; };
+		5FE4ECE41C4E67AF000BFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE4ECE91C4E67AF000BFA16 /* KYCuteView-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KYCuteView-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE4ECED1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCuteView_SwiftUITests.swift; sourceTree = "<group>"; };
+		5FE4ECEF1C4E67AF000BFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCuteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE4ECC71C4E67AE000BFA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECDB1C4E67AF000BFA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECE61C4E67AF000BFA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE4ECC11C4E67AE000BFA16 = {
+			isa = PBXGroup;
+			children = (
+				5FE4ECCC1C4E67AE000BFA16 /* KYCuteView-Swift */,
+				5FE4ECE11C4E67AF000BFA16 /* KYCuteView-SwiftTests */,
+				5FE4ECEC1C4E67AF000BFA16 /* KYCuteView-SwiftUITests */,
+				5FE4ECCB1C4E67AE000BFA16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE4ECCB1C4E67AE000BFA16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4ECCA1C4E67AE000BFA16 /* KYCuteView-Swift.app */,
+				5FE4ECDE1C4E67AF000BFA16 /* KYCuteView-SwiftTests.xctest */,
+				5FE4ECE91C4E67AF000BFA16 /* KYCuteView-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE4ECCC1C4E67AE000BFA16 /* KYCuteView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4ECCD1C4E67AE000BFA16 /* AppDelegate.swift */,
+				5FE4ECCF1C4E67AE000BFA16 /* ViewController.swift */,
+				5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */,
+				5FE4ECD11C4E67AE000BFA16 /* Main.storyboard */,
+				5FE4ECD41C4E67AE000BFA16 /* Assets.xcassets */,
+				5FE4ECD61C4E67AE000BFA16 /* LaunchScreen.storyboard */,
+				5FE4ECD91C4E67AE000BFA16 /* Info.plist */,
+			);
+			path = "KYCuteView-Swift";
+			sourceTree = "<group>";
+		};
+		5FE4ECE11C4E67AF000BFA16 /* KYCuteView-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4ECE21C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift */,
+				5FE4ECE41C4E67AF000BFA16 /* Info.plist */,
+			);
+			path = "KYCuteView-SwiftTests";
+			sourceTree = "<group>";
+		};
+		5FE4ECEC1C4E67AF000BFA16 /* KYCuteView-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE4ECED1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift */,
+				5FE4ECEF1C4E67AF000BFA16 /* Info.plist */,
+			);
+			path = "KYCuteView-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE4ECC91C4E67AE000BFA16 /* KYCuteView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE4ECF21C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-Swift" */;
+			buildPhases = (
+				5FE4ECC61C4E67AE000BFA16 /* Sources */,
+				5FE4ECC71C4E67AE000BFA16 /* Frameworks */,
+				5FE4ECC81C4E67AE000BFA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KYCuteView-Swift";
+			productName = "KYCuteView-Swift";
+			productReference = 5FE4ECCA1C4E67AE000BFA16 /* KYCuteView-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE4ECDD1C4E67AF000BFA16 /* KYCuteView-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE4ECF51C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftTests" */;
+			buildPhases = (
+				5FE4ECDA1C4E67AF000BFA16 /* Sources */,
+				5FE4ECDB1C4E67AF000BFA16 /* Frameworks */,
+				5FE4ECDC1C4E67AF000BFA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE4ECE01C4E67AF000BFA16 /* PBXTargetDependency */,
+			);
+			name = "KYCuteView-SwiftTests";
+			productName = "KYCuteView-SwiftTests";
+			productReference = 5FE4ECDE1C4E67AF000BFA16 /* KYCuteView-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE4ECE81C4E67AF000BFA16 /* KYCuteView-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE4ECF81C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftUITests" */;
+			buildPhases = (
+				5FE4ECE51C4E67AF000BFA16 /* Sources */,
+				5FE4ECE61C4E67AF000BFA16 /* Frameworks */,
+				5FE4ECE71C4E67AF000BFA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE4ECEB1C4E67AF000BFA16 /* PBXTargetDependency */,
+			);
+			name = "KYCuteView-SwiftUITests";
+			productName = "KYCuteView-SwiftUITests";
+			productReference = 5FE4ECE91C4E67AF000BFA16 /* KYCuteView-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE4ECC21C4E67AE000BFA16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kitten Yang";
+				TargetAttributes = {
+					5FE4ECC91C4E67AE000BFA16 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5FE4ECDD1C4E67AF000BFA16 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5FE4ECC91C4E67AE000BFA16;
+					};
+					5FE4ECE81C4E67AF000BFA16 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5FE4ECC91C4E67AE000BFA16;
+					};
+				};
+			};
+			buildConfigurationList = 5FE4ECC51C4E67AE000BFA16 /* Build configuration list for PBXProject "KYCuteView-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE4ECC11C4E67AE000BFA16;
+			productRefGroup = 5FE4ECCB1C4E67AE000BFA16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE4ECC91C4E67AE000BFA16 /* KYCuteView-Swift */,
+				5FE4ECDD1C4E67AF000BFA16 /* KYCuteView-SwiftTests */,
+				5FE4ECE81C4E67AF000BFA16 /* KYCuteView-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE4ECC81C4E67AE000BFA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE4ECD81C4E67AE000BFA16 /* LaunchScreen.storyboard in Resources */,
+				5FE4ECD51C4E67AE000BFA16 /* Assets.xcassets in Resources */,
+				5FE4ECD31C4E67AE000BFA16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECDC1C4E67AF000BFA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECE71C4E67AF000BFA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE4ECC61C4E67AE000BFA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE4ECFC1C4E67D9000BFA16 /* KYCuteView.swift in Sources */,
+				5FE4ECD01C4E67AE000BFA16 /* ViewController.swift in Sources */,
+				5FE4ECCE1C4E67AE000BFA16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECDA1C4E67AF000BFA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE4ECE31C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE4ECE51C4E67AF000BFA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE4ECEE1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE4ECE01C4E67AF000BFA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE4ECC91C4E67AE000BFA16 /* KYCuteView-Swift */;
+			targetProxy = 5FE4ECDF1C4E67AF000BFA16 /* PBXContainerItemProxy */;
+		};
+		5FE4ECEB1C4E67AF000BFA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE4ECC91C4E67AE000BFA16 /* KYCuteView-Swift */;
+			targetProxy = 5FE4ECEA1C4E67AF000BFA16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE4ECD11C4E67AE000BFA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE4ECD21C4E67AE000BFA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE4ECD61C4E67AE000BFA16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE4ECD71C4E67AE000BFA16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE4ECF01C4E67AF000BFA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE4ECF11C4E67AF000BFA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE4ECF31C4E67AF000BFA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KYCuteView-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FE4ECF41C4E67AF000BFA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KYCuteView-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FE4ECF61C4E67AF000BFA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KYCuteView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYCuteView-Swift.app/KYCuteView-Swift";
+			};
+			name = Debug;
+		};
+		5FE4ECF71C4E67AF000BFA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KYCuteView-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYCuteView-Swift.app/KYCuteView-Swift";
+			};
+			name = Release;
+		};
+		5FE4ECF91C4E67AF000BFA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KYCuteView-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KYCuteView-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5FE4ECFA1C4E67AF000BFA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KYCuteView-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KYCuteView-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KYCuteView-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE4ECC51C4E67AE000BFA16 /* Build configuration list for PBXProject "KYCuteView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE4ECF01C4E67AF000BFA16 /* Debug */,
+				5FE4ECF11C4E67AF000BFA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE4ECF21C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE4ECF31C4E67AF000BFA16 /* Debug */,
+				5FE4ECF41C4E67AF000BFA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE4ECF51C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE4ECF61C4E67AF000BFA16 /* Debug */,
+				5FE4ECF71C4E67AF000BFA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE4ECF81C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE4ECF91C4E67AF000BFA16 /* Debug */,
+				5FE4ECFA1C4E67AF000BFA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE4ECC21C4E67AE000BFA16 /* Project object */;
+}
