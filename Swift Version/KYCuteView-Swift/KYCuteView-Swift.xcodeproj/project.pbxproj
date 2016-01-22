@@ -14,7 +14,7 @@
 		5FE4ECD81C4E67AE000BFA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4ECD61C4E67AE000BFA16 /* LaunchScreen.storyboard */; };
 		5FE4ECE31C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECE21C4E67AF000BFA16 /* KYCuteView_SwiftTests.swift */; };
 		5FE4ECEE1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECED1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift */; };
-		5FE4ECFC1C4E67D9000BFA16 /* KYCuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */; };
+		5FE4ECFC1C4E67D9000BFA16 /* CuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4ECFB1C4E67D9000BFA16 /* CuteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		5FE4ECE91C4E67AF000BFA16 /* KYCuteView-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KYCuteView-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE4ECED1C4E67AF000BFA16 /* KYCuteView_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCuteView_SwiftUITests.swift; sourceTree = "<group>"; };
 		5FE4ECEF1C4E67AF000BFA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCuteView.swift; sourceTree = "<group>"; };
+		5FE4ECFB1C4E67D9000BFA16 /* CuteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				5FE4ECCD1C4E67AE000BFA16 /* AppDelegate.swift */,
 				5FE4ECCF1C4E67AE000BFA16 /* ViewController.swift */,
-				5FE4ECFB1C4E67D9000BFA16 /* KYCuteView.swift */,
+				5FE4ECFB1C4E67D9000BFA16 /* CuteView.swift */,
 				5FE4ECD11C4E67AE000BFA16 /* Main.storyboard */,
 				5FE4ECD41C4E67AE000BFA16 /* Assets.xcassets */,
 				5FE4ECD61C4E67AE000BFA16 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE4ECFC1C4E67D9000BFA16 /* KYCuteView.swift in Sources */,
+				5FE4ECFC1C4E67D9000BFA16 /* CuteView.swift in Sources */,
 				5FE4ECD01C4E67AE000BFA16 /* ViewController.swift in Sources */,
 				5FE4ECCE1C4E67AE000BFA16 /* AppDelegate.swift in Sources */,
 			);
@@ -488,6 +488,7 @@
 				5FE4ECF41C4E67AF000BFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE4ECF51C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				5FE4ECF71C4E67AF000BFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE4ECF81C4E67AF000BFA16 /* Build configuration list for PBXNativeTarget "KYCuteView-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				5FE4ECFA1C4E67AF000BFA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
