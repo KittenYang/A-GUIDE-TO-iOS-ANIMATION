@@ -2,7 +2,7 @@
 
 ##V2.0
 
-Take it easy!We have no homework this week!
+***Take it easy!We have no homework this week!***
 
 ![](https://github.com/KittenYang/A-GUIDE-TO-iOS-ANIMATION/blob/master/A%20guide%20to%20iOS%20animation_logo%20v2.0.png?raw=true)
 
@@ -18,7 +18,7 @@ Take it easy!We have no homework this week!
 
 ##V1.0
 
-A package of fun contents for serious people.
+***A package of fun contents for serious people.***
 
 ![](https://github.com/KittenYang/A-GUIDE-TO-iOS-ANIMATION/blob/master/A%20guide%20to%20iOS%20animation_logo%20v1.0.png?raw=true)
 
