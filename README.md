@@ -9,7 +9,7 @@
 ###Update log:
 * Swift supported.
 * Correct some issues.Thanks for pointing them out.
-* Optomize the typesetting e.g. image layout,font size and so on.Now,it's more comfortable to read.
+* Optimize the typesetting e.g. image layout,font size and so on.Now,it's more comfortable to read.
 * Add two new demos.
 * Add a brief intro of this book's born.
 * Design a new cover.
