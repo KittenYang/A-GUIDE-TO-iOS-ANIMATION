@@ -14,6 +14,7 @@
 		5FE4EFF81C60B6A60029AC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE4EFF61C60B6A60029AC3F /* LaunchScreen.storyboard */; };
 		5FE4F0031C60B6A70029AC3F /* PulseLoader_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4F0021C60B6A70029AC3F /* PulseLoader_SwiftTests.swift */; };
 		5FE4F00E1C60B6A70029AC3F /* PulseLoader_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4F00D1C60B6A70029AC3F /* PulseLoader_SwiftUITests.swift */; };
+		5FE4F01C1C60C7470029AC3F /* PulseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4F01B1C60C7470029AC3F /* PulseLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5FE4F0091C60B6A70029AC3F /* PulseLoader-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulseLoader-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE4F00D1C60B6A70029AC3F /* PulseLoader_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLoader_SwiftUITests.swift; sourceTree = "<group>"; };
 		5FE4F00F1C60B6A70029AC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE4F01B1C60C7470029AC3F /* PulseLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulseLoader.swift; path = PulseLoader/PulseLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5FE4EFED1C60B6A60029AC3F /* AppDelegate.swift */,
 				5FE4EFEF1C60B6A60029AC3F /* ViewController.swift */,
+				5FE4F01B1C60C7470029AC3F /* PulseLoader.swift */,
 				5FE4EFF11C60B6A60029AC3F /* Main.storyboard */,
 				5FE4EFF41C60B6A60029AC3F /* Assets.xcassets */,
 				5FE4EFF61C60B6A60029AC3F /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE4F01C1C60C7470029AC3F /* PulseLoader.swift in Sources */,
 				5FE4EFF01C60B6A60029AC3F /* ViewController.swift in Sources */,
 				5FE4EFEE1C60B6A60029AC3F /* AppDelegate.swift in Sources */,
 			);
