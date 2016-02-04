@@ -38,6 +38,7 @@ struct GridReplicatorLayer: Replicatable {
             var transform = CATransform3DIdentity
             transform = CATransform3DTranslate(transform, dotSize+marginBetweenDot, 0, 0.0)
             replicatorLayerX.instanceTransform = transform
+            transform = CATransform3DScale(transform, 1, -1, 0)
             
             let replicatorLayerY = CAReplicatorLayer()
             replicatorLayerY.frame = CGRect(x: 0, y: 0, width: size, height: size)
