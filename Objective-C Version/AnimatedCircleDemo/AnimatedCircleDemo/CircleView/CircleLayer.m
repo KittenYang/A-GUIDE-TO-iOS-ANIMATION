@@ -28,7 +28,6 @@ typedef enum MovingPoint {
  */
 @property(nonatomic,assign)CGFloat lastProgress;
 
-
 /**
  *  实时记录滑动方向
  */
@@ -36,12 +35,9 @@ typedef enum MovingPoint {
 
 @end
 
-@implementation CircleLayer{
-
-}
+@implementation CircleLayer
 
 -(id)init{
-    
     self = [super init];
     if (self) {
         self.lastProgress = 0.5;
