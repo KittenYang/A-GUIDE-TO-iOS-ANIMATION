@@ -166,6 +166,7 @@ class CuteView: UIView {
     @objc private func handleDragGesture(ges: UIPanGestureRecognizer) {
         let dragPoint = ges.locationInView(containerView)
         if ges.state == .Began {
+            // 不给r1赋初始值的话，如果第一次拖动使得r1少于6，第二次拖动就直接隐藏绘制路径了
             r1 = oldBackViewFrame.width / 2
             backView.hidden = false
             fillColorForCute = bubbleOptions.bubbleColor
