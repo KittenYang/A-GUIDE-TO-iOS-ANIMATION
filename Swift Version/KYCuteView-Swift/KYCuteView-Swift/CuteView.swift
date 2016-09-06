@@ -166,6 +166,7 @@ class CuteView: UIView {
     @objc private func handleDragGesture(ges: UIPanGestureRecognizer) {
         let dragPoint = ges.locationInView(containerView)
         if ges.state == .Began {
+            r1 = oldBackViewFrame.width / 2
             backView.hidden = false
             fillColorForCute = bubbleOptions.bubbleColor
             removeAniamtionLikeGameCenterBubble()
